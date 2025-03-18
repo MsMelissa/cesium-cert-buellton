@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
       position: absolute;
       top: 10px;
       left: 10px;
-      right: 10px;
       z-index: 10;
       background: rgba(185, 232, 254, 0.5);
       padding: 10px;
@@ -46,13 +45,15 @@ document.addEventListener("DOMContentLoaded", () => {
       flex-wrap: wrap;
       gap: 20px;
       align-items: flex-start;
+      width: auto;
+      max-width: 1200px; /* Adjust as needed */
   }
   /* Inline logo container */
   #logoContainer {
-      width: 100px;
-      height: 60px;
+      width: 150px;
+      height: 90px;
       background-color: transparent;
-      background-image: url("images/helioviews_logo_web_LRG.svg");
+      background-image: url("images/HELIOVIEWS_LOGO_1200x630px.svg");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: contain;
@@ -586,98 +587,98 @@ Final Output Format:
             {
                 name: "PeaSoup",
                 status: "Conceptual Review",
-                color: "pink",
+                color: "#0047AB", // Cobalt Blue
                 isTileset: true,
                 coordinates: { lon: -120.1918, lat: 34.61346 },
             },
             {
                 name: "Hwy 246 Commercial Center",
                 status: "Applications in Process",
-                color: "#FFDAB9",
+                color: "#FFD700", // Golden Yellow
                 dimensions: new Cesium.Cartesian3(30, 30, 12),
                 coordinates: { lon: -120.19312, lat: 34.61305 },
             },
             {
                 name: "Arco AM-PM Gas Station",
                 status: "Applications in Process",
-                color: "#FFDAB9",
+                color: "#FFD700", // Golden Yellow
                 dimensions: new Cesium.Cartesian3(26, 26, 4),
                 coordinates: { lon: -120.19042, lat: 34.61970 },
             },
             {
                 name: "BUE-17 Specific Plan (Campus 36)",
                 status: "Applications in Process",
-                color: "#FFDAB9",
+                color: "#FFD700", // Golden Yellow
                 dimensions: new Cesium.Cartesian3(64, 64, 12),
                 coordinates: { lon: -120.20182, lat: 34.60883 },
             },
             {
                 name: "The 518",
                 status: "Approved",
-                color: "lightgreen",
+                color: "#50C878", // Emerald Green
                 dimensions: new Cesium.Cartesian3(27, 27, 12),
                 coordinates: { lon: -120.19137, lat: 34.615883 },
             },
             {
                 name: "Creekside Village",
                 status: "Approved",
-                color: "lightgreen",
+                color: "#50C878", // Emerald Green
                 dimensions: new Cesium.Cartesian3(23, 23, 12),
                 coordinates: { lon: -120.19167, lat: 34.61513 },
             },
             {
                 name: "Pacific Flips Gymnastics",
                 status: "Construction Plans Review",
-                color: "lightyellow",
+                color: "#DC143C", // Crimson Red
                 dimensions: new Cesium.Cartesian3(26, 26, 4),
                 coordinates: { lon: -120.1970, lat: 34.61300 },
             },
             {
                 name: "Chanin Wine Company",
                 status: "Construction Plans Review",
-                color: "lightyellow",
+                color: "#DC143C", // Crimson Red
                 dimensions: new Cesium.Cartesian3(12, 12, 8),
                 coordinates: { lon: -120.1993, lat: 34.61521 },
             },
             {
                 name: "Buellton Hub",
                 status: "Construction Plans Review",
-                color: "lightyellow",
+                color: "#DC143C", // Crimson Red
                 dimensions: new Cesium.Cartesian3(85, 85, 12),
                 coordinates: { lon: -120.20334, lat: 34.60857 },
             },
             {
                 name: "Central Ave Duplexes & ADUs",
                 status: "Construction Plans Review",
-                color: "lightyellow",
+                color: "#DC143C", // Crimson Red
                 dimensions: new Cesium.Cartesian3(13, 13, 4),
                 coordinates: { lon: -120.19349, lat: 34.61542 },
             },
             {
                 name: "The Waypoint (Live Oaks Bowling)",
                 status: "Construction Plans Review",
-                color: "lightyellow",
+                color: "#DC143C", // Crimson Red
                 dimensions: new Cesium.Cartesian3(61, 61, 17),
                 coordinates: { lon: -120.1879, lat: 34.60831 },
             },
             {
                 name: "Village Senior Apartments",
                 status: "Under Construction",
-                color: "plum",
+                color: "#FFA500", // Vibrant Orange
                 dimensions: new Cesium.Cartesian3(10, 10, 8),
                 coordinates: { lon: -120.18667, lat: 34.612887 },
             },
             {
                 name: "Polo Village",
                 status: "Under Construction",
-                color: "plum",
+                color: "#FFA500", // Vibrant Orange
                 dimensions: new Cesium.Cartesian3(28, 28, 12),
                 coordinates: { lon: -120.18292, lat: 34.61510 },
             },
             {
                 name: "Buellton Garden Apartments",
                 status: "Under Construction",
-                color: "plum",
+                color: "#FFA500", // Vibrant Orange
                 dimensions: new Cesium.Cartesian3(26, 26, 12),
                 coordinates: { lon: -120.18949, lat: 34.60897 },
             },
