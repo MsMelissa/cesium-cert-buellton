@@ -1,4 +1,4 @@
-﻿// save last working version_analysis not running
+// save last working version_analysis not running
 document.addEventListener("DOMContentLoaded", () => {
     // ----- Create Head Elements -----
     const head = document.head;
