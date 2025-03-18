@@ -1,9 +1,9 @@
+// server.js source code last working model
 //cesium-cert-buellton
-// server.js
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
-require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,6 +15,11 @@ const openWeatherApiKey = process.env.OPENWEATHER_API_KEY;
 app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
+
+// Debug: log them to confirm they’re not undefined
+console.log("NREL key from .env:", nrelApiKey);
+console.log("OpenAI key from .env:", openaiKey);
+console.log("OpenWeather key from .env:", openWeatherApiKey);
 
 // Serve index.html at the root URL
 app.get("/", (req, res) => {
@@ -46,12 +51,14 @@ app.post("/api/generateLLMText", async (req, res) => {
             })
         });
         const data = await response.json();
+        console.log("OpenAI response:", JSON.stringify(data, null, 2));
         if (data.choices && data.choices.length > 0) {
             res.json({ text: data.choices[0].message.content });
         } else {
             console.error("No choices returned from OpenAI:", data);
             res.status(500).json({ error: data.error });
         }
+
     } catch (err) {
         console.error("LLM API error:", err);
         res.status(500).json({ error: "Error generating text." });

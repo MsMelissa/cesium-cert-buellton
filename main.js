@@ -1,3 +1,4 @@
+// save last working version_analysis not running
 document.addEventListener("DOMContentLoaded", () => {
     // ----- Create Head Elements -----
     const head = document.head;
@@ -354,7 +355,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Birds_Eye": 1.20,
         };
         const LEVEL_ELEVATIONS = {
-            "Ground": "0 ft",
+            "Ground": "3 ft",
             "2nd Story": "27 ft, 1 in",
             "4th Floor": "52 ft, 3 in",
             "Birds_Eye": "N/A",
@@ -509,17 +510,19 @@ TASK:
 Final Output Format:
 <h3>Highlights</h3>
 <ul>
-            <li>Bullet points…</li>
+  <li>Bullet points…</li>
 </ul>
 <h3>Cautions</h3>
 <ul>
-            <li>Bullet points…</li>
+  <li>Bullet points…</li>
 </ul>
-                `;
+    `;
 
             const llmText = await generateLLMText(summaryPrompt) || "";
-            const highlightsRegex = /<h3>Highlights<\/h3>[\\s\\S]*?(?=<h3>Cautions<\/h3>)/;
-            const cautionsRegex = /<h3>Cautions<\/h3>[\\s\\S]*/;
+
+            // Correct regex patterns to properly match across all characters.
+            const highlightsRegex = /<h3>Highlights<\/h3>[\s\S]*?(?=<h3>Cautions<\/h3>)/;
+            const cautionsRegex = /<h3>Cautions<\/h3>[\s\S]*/;
 
             let highlightsHTML = "";
             let cautionsHTML = "";
@@ -531,23 +534,24 @@ Final Output Format:
             if (cautionsMatch) cautionsHTML = cautionsMatch[0].trim();
 
             analysisResults.innerHTML = `
-              <div id="analysisResultsTop">
-                <h3>Est. HelioViews Score: <b>${helioViewsScore.toFixed(1)}</b></h3>
-                <div><strong>Base Solar Potential:</strong> ${solrad.toFixed(2)} kWh/m²/day</div>
-                <div><strong>Climate Adjustment:</strong> ${climate}</div>
-                <div><strong>Shade:</strong> ${shading}</div>
-                <div><strong>Elevation Height:</strong> ${levelElevation}</div>
-              </div>
-              <div id="analysisColumns">
-                <div class="analysis-col highlights-col">
-                  ${highlightsHTML}
-                </div>
-                <div class="analysis-col cautions-col">
-                  ${cautionsHTML}
-                </div>
-              </div>
-            `;
+      <div id="analysisResultsTop">
+        <h3>Est. HelioViews Score: <b>${helioViewsScore.toFixed(1)}</b></h3>
+        <div><strong>Base Solar Potential:</strong> ${solrad.toFixed(2)} kWh/m²/day</div>
+        <div><strong>Climate Adjustment:</strong> ${climate}</div>
+        <div><strong>Shade:</strong> ${shading}</div>
+        <div><strong>Elevation Height:</strong> ${levelElevation}</div>
+      </div>
+      <div id="analysisColumns">
+        <div class="analysis-col highlights-col">
+          ${highlightsHTML}
+        </div>
+        <div class="analysis-col cautions-col">
+          ${cautionsHTML}
+        </div>
+      </div>
+    `;
         }
+
 
         // 8) Event Listeners for Existing Controls
         const seasonRadios = document.querySelectorAll('input[name="season"]');
@@ -764,7 +768,7 @@ Final Output Format:
             buildings.forEach((b) => {
                 if (b.isTileset) return;
                 const position = Cesium.Cartesian3.fromDegrees(b.coordinates.lon, b.coordinates.lat);
-                const hpr = new Cesium.HeadingPitchRoll(Cesium.Math.toRadians(0), 0, 0);
+                const hpr = new Cesium.HeadingPitchRoll(Cesium.Math.toRadians(22), 0, 0);
                 const orientation = Cesium.Transforms.headingPitchRollQuaternion(position, hpr);
 
                 viewer.entities.add({
