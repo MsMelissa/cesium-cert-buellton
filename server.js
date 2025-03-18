@@ -16,7 +16,7 @@ app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-// Debug: log them to confirm they’re not undefined
+// Debug: log them to confirm theyâ€™re not undefined
 console.log("NREL key from .env:", nrelApiKey);
 console.log("OpenAI key from .env:", openaiKey);
 console.log("OpenWeather key from .env:", openWeatherApiKey);
@@ -42,7 +42,7 @@ app.post("/api/generateLLMText", async (req, res) => {
                     {
                         role: "system",
                         content:
-                            "You are an expert assistant in city planning for Buellton, CA. Your role is to help city planners and real estate professionals make informed decisions by combining HelioViews’ advanced solar analysis with local insights. You understand the impact of the second-term Trump administration's policies on residential and commercial real estate, solar energy, and permaculture industries. Your responses incorporate current data on energy costs, water quality, urban development projects, and local government planning. Draw from the latest Buellton project documents and city planning resources to provide accurate, actionable recommendations."
+                            "You are an expert assistant in city planning for Buellton, CA. Your role is to help city planners and real estate professionals make informed decisions by combining HelioViewsâ€™ advanced solar analysis with local insights. You understand the impact of the second-term Trump administration's policies on residential and commercial real estate, solar energy, and permaculture industries. Your responses incorporate current data on energy costs, water quality, urban development projects, and local government planning. Draw from the latest Buellton project documents and city planning resources to provide accurate, actionable recommendations."
                     },
                     { role: "user", content: prompt }
                 ],
