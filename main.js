@@ -1,4 +1,4 @@
-// save last working version_analysis not running
+ï»¿// save last working version_analysis not running
 document.addEventListener("DOMContentLoaded", () => {
     // ----- Create Head Elements -----
     const head = document.head;
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Title
     const title = document.createElement("title");
-    title.textContent = "HelioViews™ Buellton";
+    title.textContent = "HelioViewsâ„¢ Buellton";
     head.appendChild(title);
 
     // Cesium CSS Link
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="analysisResults">Loading...</div>
         </div>
         <div class="disclaimer">
-            Disclaimer: HelioViews™ leverages real-time data from NREL, OpenWeatherMap, and OpenAI to generate a personalized solar analysis, thus results remain approximate, rely on user inputs, and require additional data points for a professional assessment.
+            Disclaimer: HelioViewsâ„¢ leverages real-time data from NREL, OpenWeatherMap, and OpenAI to generate a personalized solar analysis, thus results remain approximate, rely on user inputs, and require additional data points for a professional assessment.
         </div>
     </div>
   `;
@@ -493,29 +493,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const summaryPrompt = `
 PROPERTY DETAILS:
-• Address: ${address}
-• Orientation: ${orientation}
-• Season: ${season}
-• Time: ${hour}:00 PST
-• Building Level: ${buildingLevel} (Elevation: ${levelElevation})
-• Shade: ${shading}
-• Climate: ${climate}
-• Energy Cost: ${energyCost} USD/kWh
-• Solar Potential: ${solrad.toFixed(2)} kWh/m²/day
-• Est. HelioViews Score: ${helioViewsScore.toFixed(1)}
+â€¢ Address: ${address}
+â€¢ Orientation: ${orientation}
+â€¢ Season: ${season}
+â€¢ Time: ${hour}:00 PST
+â€¢ Building Level: ${buildingLevel} (Elevation: ${levelElevation})
+â€¢ Shade: ${shading}
+â€¢ Climate: ${climate}
+â€¢ Energy Cost: ${energyCost} USD/kWh
+â€¢ Solar Potential: ${solrad.toFixed(2)} kWh/mÂ²/day
+â€¢ Est. HelioViews Score: ${helioViewsScore.toFixed(1)}
 
 TASK:
-1. Provide a "City Planner’s Highlights" section that outlines the key strengths of this property’s solar and permaculture potential.
-2. Provide a "City Planner’s Cautions" section that identifies potential concerns or areas for further study.
+1. Provide a "City Plannerâ€™s Highlights" section that outlines the key strengths of this propertyâ€™s solar and permaculture potential.
+2. Provide a "City Plannerâ€™s Cautions" section that identifies potential concerns or areas for further study.
 
 Final Output Format:
 <h3>Highlights</h3>
 <ul>
-  <li>Bullet points…</li>
+  <li>Bullet pointsâ€¦</li>
 </ul>
 <h3>Cautions</h3>
 <ul>
-  <li>Bullet points…</li>
+  <li>Bullet pointsâ€¦</li>
 </ul>
     `;
 
@@ -537,7 +537,7 @@ Final Output Format:
             analysisResults.innerHTML = `
       <div id="analysisResultsTop">
         <h3>Est. HelioViews Score: <b>${helioViewsScore.toFixed(1)}</b></h3>
-        <div><strong>Base Solar Potential:</strong> ${solrad.toFixed(2)} kWh/m²/day</div>
+        <div><strong>Base Solar Potential:</strong> ${solrad.toFixed(2)} kWh/mÂ²/day</div>
         <div><strong>Climate Adjustment:</strong> ${climate}</div>
         <div><strong>Shade:</strong> ${shading}</div>
         <div><strong>Elevation Height:</strong> ${levelElevation}</div>
@@ -722,7 +722,7 @@ Final Output Format:
                 heading = ORIENTATION_HEADING[orientationValue];
             }
 
-            // Set pitch: use -90° for "BIRDSEYE" or default to a slight downward tilt (e.g. -15°)
+            // Set pitch: use -90Â° for "BIRDSEYE" or default to a slight downward tilt (e.g. -15Â°)
             let pitch = Cesium.Math.toRadians(-15);
             if (orientationValue === "BIRDSEYE") {
                 pitch = Cesium.Math.toRadians(-90);
