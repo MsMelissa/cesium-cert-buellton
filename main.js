@@ -129,6 +129,17 @@ document.addEventListener("DOMContentLoaded", () => {
     <div id="cesiumContainer"></div>
     <div id="controlsContainer">
         <div id="logoContainer"></div>
+        <div id="seasonContainer">
+            <strong>Select Season:</strong><br />
+            <label><input type="radio" name="season" value="Winter" checked> Winter</label><br />
+            <label><input type="radio" name="season" value="Spring"> Spring</label><br />
+            <label><input type="radio" name="season" value="Summer"> Summer</label><br />
+            <label><input type="radio" name="season" value="Fall"> Fall</label><br />
+        </div>
+        <div id="timeSliderContainer">
+            <strong>Sun Hour (PST):</strong> <span id="hourDisplay">12</span><br />
+            <input type="range" id="timeSlider" min="8" max="20" step="1" value="12" />
+        </div>
         <div id="buildingSelectionContainer">
             <div id="buildingStatusContainer">
                 <strong>Select Building Status:</strong><br />
@@ -147,13 +158,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <!-- Options populated dynamically -->
                 </select>
             </div>
-        </div>
-        <div id="seasonContainer">
-            <strong>Select Season:</strong><br />
-            <label><input type="radio" name="season" value="Winter" checked> Winter</label><br />
-            <label><input type="radio" name="season" value="Spring"> Spring</label><br />
-            <label><input type="radio" name="season" value="Summer"> Summer</label><br />
-            <label><input type="radio" name="season" value="Fall"> Fall</label><br />
         </div>
         <div id="orientationContainer">
             <strong>Select Orientation:</strong><br />
@@ -175,10 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <option value="4th Floor">4th Floor</option>
                 <option value="Birds_Eye">Birds Eye</option>
             </select>
-        </div>
-        <div id="timeSliderContainer">
-            <strong>Sun Hour (PST):</strong> <span id="hourDisplay">12</span><br />
-            <input type="range" id="timeSlider" min="8" max="20" step="1" value="12" />
         </div>
     </div>
     <div id="analysisPanel">
@@ -347,7 +347,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 duration: 2,
             });
         }
-
         // 5) Shading & Multipliers (Step 1 changes)
         const LEVEL_MULTIPLIERS = {
             "Ground": 1.0,
