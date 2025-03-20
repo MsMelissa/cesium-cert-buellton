@@ -126,8 +126,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <div id="logoContainer"></div>
           <div id="seasonContainer">
               <strong>Select Season:</strong><br />
-              <label><input type="radio" name="season" value="Winter" checked> Winter</label><br />
-              <label><input type="radio" name="season" value="Spring"> Spring</label><br />
+              <label><input type="radio" name="season" value="Winter"> Winter</label><br />
+              <label><input type="radio" name="season" value="Spring" checked> Spring</label><br />
               <label><input type="radio" name="season" value="Summer"> Summer</label><br />
               <label><input type="radio" name="season" value="Fall"> Fall</label><br />
           </div>
@@ -235,6 +235,12 @@ document.addEventListener("DOMContentLoaded", () => {
             geocoder: false,
         });
         viewer.scene.globe.depthTestAgainstTerrain = true;
+        viewer.scene.atmosphere.dynamicLighting = Cesium.DynamicAtmosphereLightingType.SUNLIGHT;
+
+        // Adjust the color of the atmosphere effects.
+        viewer.scene.atmosphere.hueShift = 0.4;          // Cycle 40% around the color wheel
+        viewer.scene.atmosphere.brightnessShift = 0.25;    // Increase the brightness
+        viewer.scene.atmosphere.saturationShift = -0.1;    // Desaturate the colors
 
         // Replace OSM Buildings with Google Photorealistic 3D Tiles
         try {
