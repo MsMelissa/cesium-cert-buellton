@@ -3,14 +3,79 @@
 <head>
     <meta charset="UTF-8" />
     <title>Cesium Dev Certification: Instigating Community Engagement in City Planning</title>
+    <link rel="stylesheet" href="./templates/bucket.css" />
     <style>
-        @import url('./templates/bucket.css');
+        /* Additional styles for new Chat UI */
+        /* Right side panel container */
+        #llmChatContainer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100%;
+            background-color: #1b375e;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 20;
+        }
+        /* Instructions text at the top of the chat panel */
+        #llmInstructions {
+            color: #fff;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        /* Rounded user input box */
+        #llmInput {
+            background-color: #b9e8fe;
+            border: none;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            resize: none;
+        }
+        /* LLM output area */
+        #llmOutput {
+            flex: 1;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 8px;
+            overflow-y: auto;
+            margin-bottom: 8px;
+            color: #000;
+        }
+        /* Send button styling */
+        #llmSendButton {
+            align-self: flex-end;
+            padding: 6px 12px;
+            background-color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
+    <!-- Cesium Viewer Container -->
     <div id="cesiumContainer" class="fullSize"></div>
+
+    <!-- Loading overlay -->
     <div id="loadingOverlay"><h1>Loading...</h1></div>
+
+    <!-- Toolbar (if used by your application) -->
     <div id="toolbar"></div>
+
+    <!-- New: Right side panel for custom GPT Chat Q&A -->
+    <div id="llmChatContainer">
+        <div id="llmInstructions">How to use custom GPT: Type your question below.</div>
+        <textarea id="llmInput" rows="2" placeholder="Ask a question..."></textarea>
+        <div id="llmOutput"></div>
+        <button id="llmSendButton">Send</button>
+    </div>
+
     <!-- Load your dynamic JavaScript front-end -->
     <script src="main.js"></script>
 </body>

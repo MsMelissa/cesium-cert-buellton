@@ -1,0 +1,149 @@
+STORMWATER CONTROL PLAN (SWCP)For Arco AM/PM Avenue of the Flags & Central Avenue Buellton, CA 
+(November 30, 2017)Deep Grewal Lion Builders 3323 Pendragon St.Bakersfield, CA 93313 
+Prepared By: 4Creeks, Inc. Steven Macias, PE324 S. Santa Fe St. Visalia, CA 93292 (559) 802-3052 
+
+Table of Contents 
+I. Project Data............................................................................................................................................................ 1 II. Setting..................................................................................................................................................................... 1 
+II.A. Project Location and Description .......................................................................................................... 1 
+II.B. Existing Site Features and Conditions .................................................................................................. 1 
+II.C. Opportunities and Constraints for Stormwater Control..................................................................... 2 
+II.D. Summary of Design Approach for Meeting the Post-Construction Requirements ........................... 2 
+III. Low Impact Development Design Strategies....................................................................................................... 2 
+III.A. Site Design and Runoff Reduction (Performance Requirement No.1)..............................................2 
+III.A.1. Limit disturbance to creeks and natural drainage features, if applicable………….….2 
+III.A.2. Minimize compaction of highly permeable soils, if applicable…………………….….2 
+III.A.3. Limit of clearing and grading of native vegetation to minimum area needed, if applicable………………………………………………………………………………….…….2 
+III.A.4. Apply setbacks from creeks, wetlands, and riparian habitats, if applicable.………….2 
+III.A.5. Minimize stormwater runoff using one or more of the following site design measures………………………………………………………………………………………...2 
+III.A.6. Consideration of drainage as a design element within the project………………..….2 
+III.A.7. Tier 3 projects must include:………………………………………………….….…..3 III.B. Site Constraints…………………………………………………………………………………2 
+III.B.1. Limitation of development envelope due to site constraints including:………….…..2 
+III.C. Dispersal of Runoff to Pervious Areas................................................................................................... 2 
+III.C.1. Reduce amount of runoff for which Structural Control Measures are required……..2 
+IV. 
+DocumentationofDrainageDesign....................................................................................................................3 
+
+IV.A. Descriptions of each Drainage Management Area ............................................................................... 3 Table 2. Drainage Management Areas…………………………………………………………3 Drainage Management Area Narrative Descriptions…………………………………………..4 
+IV.B. Description of each Stormwater Structural Control Measure.............................................................4 
+IV.C. Tabulation and Sizing Calculations for Structural Control Measures................................................ 4 
+
+V. 
+Source Control Measures...................................................................................................................................... 4 
+
+
+V.A. Site activities and potential sources of pollutants ................................................................................. 4 
+V.B. Source Control BMPs Table................................................................................................................... 5 
+VI. Stormwater Facility Maintenance......................................................................................................................... 5 
+VII. Stormwater Control Plan/Construction Documents Cross-Checklist.............................................................5 VIII. Certifications.......................................................................................................................................................... 6 
+Tables 
+Table 1. Project Data 1 Table 2. Drainage Management Areas 4 Table 3. Source Control BMP’s 5 Table 4. Stormwater Control Plan/Construction Documents Cross-Checklist 5 
+Attachments 
+Stormwater Control Plan Exhibit Central Coast Region Stormwater Control Measure Sizing Calculator 
+Appendices 
+This Stormwater Control Plan was prepared using the template dated January 2017. 
+I. Project Data 
+Table 1. Project Data Table 1. Project Data 
+Project Name/Project Case Number  Arco AM/PM  
+Project Location  Avenue of the Flags & Central Ave. Buellton, CA  
+Project Phase No.  N/A  
+Project Type and Description  4,559 sf Gas Station Building with 6 pumps and parking areas  
+Total Project Site Area (ac)  0.73  
+New Impervious Surface Area (sf)  1,013  
+Replaced Impervious Surface Area (sf)  24,288  
+Pre-Project Impervious Surface Area (sf)  28,749  
+Post-Project Impervious Surface Area (sf)  25,301  
+“Net Impervious” Area, if applicable  Negative, not applicable  
+Watershed Management Zone(s)  Zone 1  
+Tier  Tier 4 ( > 22,500 sf of impervious surface replaced)  
+Design Storm Frequency Used (85th or 95th percentile) and Design Storm Depth (in)  1.7” (95th percentile)  
+Urban Sustainability Area, if applicable  [Contact municipality]  
+
+II. Setting 
+II.A. Project Location and Description 
+The project includes the demolition of an existing building and parking lot and replacement with a new gas station, fuel pumps and parking lot. The project is located at the intersection of Avenue ofthee Flags and Central Ave. in Buellton, CA. 
+II.B. Existing Site Features and Conditions 
+The existing site has a significant slope, dropping approx. 8’ over approx. 140’ from West to East. The existing site is paved and incudes a building. The frontage of the site includes existing sidewalk and landscape planters which include some mature trees and bushes. There is an existing retaining wall along a portion of the west side of the site. The existing drainage system is connected to a municipalstorm drain system. 
+II.C. Opportunities and Constraints for Stormwater Control 
+Stormwater can be retained in landscaped areas to south and east of the proposed building. Because of the slope across the project site, there is limited area which could be lowered and used for retention. Because the existing site’s runoff goes into the municipal storm drain system, keeping runoff on-site will result in a net decrease in runoff to the municipal system. 
+II.D. Summary of Design Approach for Meeting the Post-Construction Requirements 
+The site is meeting performance requirements by directing runoff into vegetated areas and away from buildings (performance requirement 1). The proposed bio-retention area is considered an LIDtreatment system, designed to hold runoff generated by the 95th percentile, 24-hour storm (performance requirement 3). Runoff from the existing site flows entirely into the municipal storm system. The proposed site results in a net increase in pervious area as well as a reduction in runoff out of the site by putting a retention area on-site. Therefore, the post-development peak flow shall not exceed pre-project peak flow (performance requirement 4). 
+III. Low Impact Development Design Strategies 
+III.A. Site Design and Runoff Reduction (Performance Requirement No.1) 
+III.A.1. Limit disturbance to creeks and natural drainage features, if applicable Not applicable -no creeks or natural drainage features. 
+III.A.2. Minimize compaction of highly permeable soils, if applicable Not Applicable, as nearly the entire site has been previously paved. 
+III.A.3. Limit of clearing and grading of native vegetation to minimum area needed, if applicable 
+The demolition of existing pavement and building will be replaced with new pavement and building. The existing landscape area on the west side will be preserved as much as possible. The project will result in a net gain of landscaped area. 
+III.A.4. Apply setbacks from creeks, wetlands, and riparian habitats, if applicable Not applicable -no creeks, wetlands, or riparian habitats. 
+III.A.5. Minimize stormwater runoff using one or more of the following site design measures 
+Runoff is designed to be directed away from the buildings and into vegetated areas. Drainage inlets and pipes are to be installed to convey runoff from the parking area to vegetated areas. 
+III.A.6. Consideration of drainage as a design element within the project 
+The project has been designed with the intent to drain rainwater away from the buildings and into a storm drain system which will convey it to the bioretention area. 
+III.A.7. Tier 3 projects must include: 
+The site has already been developed, so there are no natural areas to protect. The proposed site design will increase the pervious area. 
+III.B. Site Constraints 
+III.B.1. Limitation of development envelope due to site constraints including: 
+The site is limited due to its existing topography. The large grade difference between the east and west sides of the site create a limitation on the possible size of a bioretention area due to the need for a lowered area where water can collect when the west side of the project is already much higher than the east side. 
+III.C. Dispersal of Runoff to Pervious Areas 
+III.C.1. Reduce amount of runoff for which Structural Control Measures are required. 
+Due to the site layout and the limitations on possible grading schemes, drainage inlets must be installed in the parking areas to collect runoff. This runoff will then be piped into the bio-retention area. 
+IV. Documentation of Drainage Design 
+IV.A.Descriptions of each Drainage Management Area 
+Table 2. Drainage Management Areas 
+DMA Area (sf)Name Surface type Drains to 
+DMA1 l SCM#1 
+2,973  Concrete / Asphat  
+DMA 2  13,147  Concrete / Asphalt  SCM #1  
+DMA 3  3,179  Roof  SCM #1  
+DMA 4  4,559  Roof  SCM #1  
+DMA 5  1,443  Concrete / Asphalt  SCM #1  
+DMA 6  2279  Landscape  SCM #1  
+DMA 7  1238  Landscape  Self-Retaining  
+DMA 8  1208  Landscape  Self-Retaining  
+DMA 9  389  Landscape  Self-Retaining  
+
+Drainage Management Area Narrative Descriptions 
+DMA #1, totaling 2,973 SF is as portion of the parking lot which flows to a drainage inlet which 
+pipes to the drainage inlet for DMA 2 and is then directed to the bioretention area. DMA #2, totaling 13,147 SF is as portion of the parking lot and fueling area which flows to a drainage inlet which directs to the bioretention area 
+DMA #3, totaling 3,179 SF is the roof canopy for the fueling area. Roof leaders direct the flow to the 
+drainage inlet for DMA 2 which then directs the flow to the retention area. DMA #4, totaling 4,559 SF is the roof of the gas station building. Roof leaders direct the flow into the parking area where it then flows into the drainage inlet for DMA 2. 
+DMA #5, totaling 1,443 SF is the sidewalks around the sides of the building which flow into 
+surrounding landscape areas and then into SCM #1 DMA #6, totaling 2,279 SF is the landscaped area behind the building which will drain towards the SCM 
+DMA #7, totaling 1,238 SF is the landscaped area that will self-retain DMA #8, totaling 1,208 SF is the landscaped area that will self-retain DMA #9, totaling 389 SF is the landscaped area that will self-retain 
+IV.B.Description of each Stormwater Structural Control Measure 
+SCM#1, totaling 1334 SF is a landscaped bio-retention area behind the proposed building 
+IV.C. Tabulation and Sizing Calculations for Structural Control Measures 
+See the attached entries and output from the Central Coast Stormwater Control Measure Sizing Calculator. 
+V. Source Control Measures 
+V.A. Site activities and potential sources of pollutants 
+On-site areas that can become potential sources of pollutants are as follows: 
+. 
+Landscape Maintenance 
+
+. 
+Parking Lots and Driveways – Oil leaks from cars 
+
+
+LandscapeMaintenance  exstng trees to mature.  Landscapng to protected and maintained using no pesticides.  
+
+Parking Lots and Sidewalks  Not Applicable  Parking lots and sidewalks to be swept daily and debristo be pressure washed periodically. Oil spills to be cleaned as soon as possiblewhen noticed  
+
+V.B. Source Control BMPs Table 
+Table 3. Source Control BMPs 
+Potential source of Permanent Operational runoff pollutants source control BMPs source control BMPs 
+Protect i i 
+i 
+be 
+VI. Stormwater Facility Maintenance 
+The maintenance of Stormwater facilities will be the responsibility of the property owner and will be performed by the owner’s contractors or employees. The applicant accepts the responsibility for this operation and maintenance of Stormwater treatment until such time as this responsibility is formallytransferred to subsequent owner. 
+VII. Stormwater Control Plan/Construction Documents Cross-Checklist 
+Table 4. Stormwater Control Plan/Construction Documents Cross-Checklist 
+StormwaterControl Plan Page # Source Control or LID Facility See Plan Sheet #s 
+4 and Exhibit  DMA #1-4 – runoff is transported to the bioretention area via storm-drain pipes  
+
+4 and Exhibit  DMA #5-6 – stormwater is able to runoff directlyinto the bioretention area  
+
+4 and Exhibit  DMA #7-9 – landscaped areas which will self-retain any stormwater  
+
+VIII. Certifications 
+The preliminary design of stormwater treatment facilities and other stormwater pollution control measures in this plan are in accordance with the current edition of the Santa Barbara County Project Clean Water’s Stormwater Technical Guide. 
+

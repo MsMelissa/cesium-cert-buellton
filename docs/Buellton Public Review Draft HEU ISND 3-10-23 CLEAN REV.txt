@@ -1,0 +1,713 @@
+Draft
+Initial Study / Negative Declaration
+for the
+General Plan Housing Element Update
+23-ND-01
+Prepared for:
+City of Buellton
+107 West Highway 246
+Buellton, California 93427
+Prepared by:
+Civic Solutions
+27362 Calle Arroyo
+San Juan Capistrano, California 92675
+March 2023
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton ii
+Table of Contents
+Page
+Initial Study
+Introduction ..................................................................................................................................................... 1
+Project Title ...................................................................................................................................................... 2
+Project Location ............................................................................................................................................... 2
+Permits/Approvals Requested ..................................................................................................................... 2
+Lead Agency and Contact Person ................................................................................................................. 2
+Project Applicant and Owner ........................................................................................................................ 2
+Project Setting and Overview ........................................................................................................................ 2
+Public Agencies Whose Approval May Be Required For Subsequent Actions ...................................... 7
+California Native American Tribes Consultation ....................................................................................... 7
+References ........................................................................................................................................................ 7
+Environmental Determination ...................................................................................................................... 8
+Evaluation of Environmental Impacts ......................................................................................................... 2
+I. Aesthetics ....................................................................................................................................... 3
+II. Agriculture and Forestry Resources .......................................................................................... 5
+III. Air Quality ..................................................................................................................................... 7
+IV. Biological Resources ..................................................................................................................... 9
+V. Cultural Resources ...................................................................................................................... 11
+VI. Energy .......................................................................................................................................... 12
+VII. Geology and Soils ....................................................................................................................... 13
+VIII. Greenhouse Gas Emissions ....................................................................................................... 15
+IX. Hazards and Hazardous Materials .......................................................................................... 17
+X. Hydrology and Water Quality .................................................................................................. 19
+XI. Land Use and Planning .............................................................................................................. 22
+XII. Mineral Resources....................................................................................................................... 23
+XIII. Noise ............................................................................................................................................. 24
+XIV. Population and Housing ............................................................................................................ 25
+XIV. Public Services ............................................................................................................................. 26
+XVI. Recreation .................................................................................................................................... 27
+XVIII. Transportation ............................................................................................................................. 28
+XVIII. Tribal Cultural Resources .......................................................................................................... 30
+XIX. Utilities and Service Systems .................................................................................................... 32
+XX. Wildfire ........................................................................................................................................ 34
+XII. Mandatory Findings of Significance ........................................................................................ 36
+Appendices
+Appendix A – Draft Housing Element Update
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 1
+Introduction
+Legal Authority
+This Initial Study/Mitigated Negative Declaration (IS/ND) has been prepared in accordance with the CEQA Guidelines and relevant provisions of the California Environmental Quality Act (CEQA) of 1970, as amended.
+Initial Study. Section 15063(c) of the CEQA Guidelines defines an Initial Study as the proper preliminary method of analyzing the potential environmental consequences of a project. The purposes of an Initial Study are:
+(1) To provide the Lead Agency with the necessary information to decide whether to prepare an Environmental Impact Report (EIR), a Mitigated Negative Declaration, or a Negative Declaration;
+(2) To enable the Lead Agency to modify a project, mitigating adverse impacts, thus avoiding the need to prepare an EIR; and
+(3) To provide sufficient technical analysis of the environmental effects of a project to permit a judgment based on the record as a whole, that the environmental effects of a project have been adequately mitigated.
+Impact Analysis and Significance Classification
+The following sections of this IS/ND provide discussions of the possible environmental effects of the proposed project for specific issue areas that have been identified in the CEQA Environmental Checklist. For each issue area, potential effects are isolated.
+A “significant effect” is defined by §15382 of the CEQA Guidelines as “a substantial, or potentially substantial, adverse change in any of the physical conditions within the area affected by the project, including land, air, water, minerals, flora, fauna, ambient noise, and objects of historic or aesthetic significance.” According to the CEQA Guidelines, “an economic or social change by itself shall not be considered a significant effect on the environment … [but] may be considered in determining whether the physical change is significant.”
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 2
+Initial Study
+Project Title
+General Plan Housing Element Update
+Project Location
+Citywide
+Permits/Approvals Requested
+None
+Lead Agency and Contact Person
+City of Buellton Planning Department
+P.O. Box 1819
+Buellton, CA 93427
+Contact: Andrea Keefer, Planning Director, (805) 688-7474
+Project Applicant and Owner
+Applicant/Agent: Property Owner:
+City of Buellton Planning Department Various
+P.O. Box 1819
+Buellton, CA 93427
+Contact: Andrea Keefer, Planning Director
+Project Setting and Overview
+The California Legislature has declared that “the availability of housing is of vital statewide importance, and the early attainment of decent housing and a suitable living environment for every Californian, including farmworkers, is a priority of the highest order.” To accomplish this housing goal, California Government Code, Article 10.6 Housing Elements (§65580) mandates that each local government adopt a Housing Element as part of its General Plan. The Housing Element provides residents and public officials with an understanding of the housing needs of their community, sets forth the City’s strategy to preserve and enhance the community’s residential character, and expands and preserves housing opportunities.
+a. Environmental Setting
+The City of Buellton is a California central coast community with a population of approximately 5,200 in the Santa Ynez Valley of Santa Barbara County, approximately midway between Santa Barbara and Santa Maria (Figure 1). Two highways run through the city: U.S. Highway 101, which bisects the city in a north-south direction, and Highway 246 in an east-west direction. The city is surrounded by equestrian ranches, farms, vineyards, and wineries. Buellton has a small-town atmosphere and natural setting on the Santa Ynez River beneath the Santa Rita Hills. The City is semi-rural in character with a mix of residential, commercial, and industrial uses within its 1.6 square miles. The community is also an American Viticultural Area known for its world class grapes, and has experienced a recent increase in restaurants, breweries, and distilleries.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 3
+Figure 1. Project Location
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 4
+b. Project Description
+The proposed project includes an update of the General Plan Housing Element as described in detail below.
+Housing Element Update
+The Housing Element is one of the seven mandatory elements of the General Plan. However, unlike other elements of the General Plan, the Housing Element is required to be updated more frequently to ensure that the needs of the community are regularly reviewed. The City of Buellton adopted its first Housing Element in 1993 with a revision in 2009, and the 5th Cycle Update in 2015. The proposed Housing Element Update is for the 6th planning cycle that covers the period February 15, 2023 to February 15, 2031. The draft Housing Element is included as Appendix A to this Initial Study/Negative Declaration.
+The 2023-2031 Housing Element contains six primary sections: A. Introduction, B. Housing Plan, C. Housing Needs Assessment, D. Constraints Analysis, E. Housing Opportunities and Resources, and F. Evaluation of Accomplishments of 5th Cycle Housing Element. In addition, Appendix A to the Housing Element includes public engagement materials and responses generated during the update process. Appendix B contains a comprehensive Affirmatively Furthering Fair Housing (AFFH) Analysis of the City. The following paragraphs summarize each of these sections.
+A. Introduction. The Introduction to the 2023-2031 Housing Element summarizes the community profile of Buellton (such as location and population) as well as some of the primary housing issues in Buellton. This section also outlines the purpose of the Housing Element Update as it relates to state legislation and discusses the relationship of the Housing Element to the General Plan. Finally, this section outlines the various ways the public was encouraged to provide input into the drafting of the Housing Element and provides a high-level summary of comments received on the document.
+B. Housing Plan. This section lists the City of Buellton’s housing goals, policies, programs and actions for the 6th Cycle that make up its “Housing Plan.” As stated in the Housing Element, goals are aspirational purpose statements that indicate the City’s big-picture direction on housing-related needs. The City’s housing goals are as follows:
+Goal H-1: A diverse community with a broad range of housing types and opportunities to accommodate expected new households.
+Goal H-2: A city where housing opportunities meet the needs of all socioeconomic segments of the community.
+Goal H-3: A community that conserves existing housing resources.
+Goal H-4: A city with an efficient process for improving existing housing and developing new housing.
+Goal H-5: An equitable community that provides equal housing opportunities to all residents.
+Beneath each goal are policy statements that outline the City’s preferred course of action to achieve that goal, such as modifying the development review process to facilitate housing construction. The Housing Element also includes a table of programs and actions that outline specific actionable steps that will be taken over the next 8 years to implement the City’s housing goals and policies. This section also includes a summary of quantified objectives that
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 5
+are estimates of the number of housing units likely to be constructed, rehabilitated, or preserved by income level between 2023 and 2031.
+C. Housing Needs Assessment. Section C of the Housing Element includes a comprehensive Housing Needs Assessment for Buellton. The section begins with a detailed summary of the City’s population and housing characteristics, especially as they relate to housing needs. Next is the housing profile, which is an assessment of housing needs in Buellton. The Housing Element also addresses that part of the population with special housing needs, including seniors, persons with disabilities, female-headed households, large households, farmworkers, and the homeless. Next is a section on Housing Preservation Needs, which addresses existing assisted housing developments that may change from low-income to market-rate housing in the next 10 years. Finally, this section includes a summary of the AFFH analysis contained in Appendix B of the Housing Element.
+D. Constraints Analysis. The Constraints Analysis addresses the various governmental, environmental and market constraints that may hinder the development of housing in the City of Buellton. Governmental constraints encompass policies and regulations that affect residential development and housing affordability including the Zoning Ordinance, the General Plan, development processing procedures and fees, on-site and off-site improvement requirements, and the California Building and Housing Codes. Potential environmental constraints to development in the City of Buellton include flooding, landslides, and wildfire, and market constraints include the cost of land and cost of construction.
+E. Housing Opportunities and Resources. This section addresses how the City proposes to meet its 6th Cycle Regional Housing Needs Allocation (RHNA). RHNA is an assessment of the overall housing needs in a jurisdiction for a particular period, which is assigned by the State through the regional council of governments. Jurisdictions are not required to build the housing units outlined by their RHNA; rather, they must ensure that adequate sites and zoning are in place for the market to produce the identified housing. The current 6th cycle RHNA for the City of Buellton is outlined below:
+Table 1: City of Buellton 6th Cycle RHNA Income Level (units) Total Very Low Low Moderate Above Moderate
+55
+37
+30
+43
+165
+The Housing Opportunities and Resources section contains an assessment of housing that could be developed in the City over the next 8 years. Included in the assessment are “Credits Toward RHNA” which include recently built, entitled units pending approval and Accessory Dwelling Units (ADUs) that are expected to be built during this time period. The next section, the Residential Sites Inventory, then provides a summary of vacant and underdeveloped land with appropriate land use and zoning designations that will likely be developed with residential development over the next 8 years. A key component of this analysis is the City’s Affordable Housing Overlay Zone (AHOZ), which allows certain commercial and industrial sites to be developed with housing provided they meet specific affordability requirements. The analysis concluded that the City has more than adequate land to meet the RHNA in all income categories as shown in Table 2 below:
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 6
+Table 2: City of Buellton Summary of 6th Cycle RHNA Accommodation Unit Capacity Income Category Total Units Extremely/ Very Low Low Moderate Above Moderate
+RHNA
+55
+37
+30
+43
+165
+Credits Toward RHNA
+Units Built and/or Entitled Since 6/30/2022
+1
+1
+Pipeline Projects
+102
+63
+26
+159
+350
+Accessory Dwelling Units (2/year)
+–
+–
+16
+–
+16
+Subtotal: Credits Toward RHNA
+102
+63
+43
+159
+367
+Residential Sites Inventory
+AHOZ Sites
+35
+23
+20
+311
+389
+Vacant Residential Sites
+–
+–
+–
+7
+7
+Subtotal: Residential Sites Inventory
+35
+23
+20
+318
+396
+Total RHNA Accommodation (Built + Potential)
+137
+86
+63
+477
+763
+RHNA Surplus
++82
++49
++33
++434
++598
+The Housing Opportunities and Resources section also addresses financial and administrative resources that can be utilized to support the development of housing in the City.
+F. Evaluation of Accomplishments of 5th Cycle Housing Element. This section provides an assessment of the accomplishments of the City of Buellton’s 5th Cycle Housing Element, which addressed the period from 2015 to 2022. A detailed summary of each 5th Cycle goal and is provided together with the specific actions that were identified to implement them. Also included is a summary of the current status of each item together with an assessment of how they have contributed to the supply of special needs housing.
+Appendix A – Public Outreach Materials. Appendix A includes public outreach materials generated during the Housing Element Update process. Included in the Appendix is a Stakeholders List that includes organizations in the City and region that represent low- and moderate-income households, including local churches, agencies, and organizations, such as People Helping People, who provide housing, health and education services for lower income and homeless populations. Also included in Appendix A is the Housing Element Survey that was distributed during the process together with a tabulation of results for each question. The City received a total of 206 responses to the Housing Survey.
+Appendix B – AFFH Analysis. Appendix B includes a comprehensive AFFH Analysis. The analysis describes that Buellton is predominantly Latinx-White and its geography shows a pattern of general integration, without any high concentrations of poverty and affluence that can be a fair housing concern when associated with a single race or ethnic groups. In addition, Buellton offers high opportunity areas but faces some challenges in promoting and providing a range of housing types and prices suitable for lower-income households. The AFFH Analysis also summarizes the following four key fair housing issues in the City of Buellton: 1) Insufficient Outreach and Education on Fair Housing Rights; 2) Housing Disparities for Low-Income Residents, Elderly, and Persons with Disabilities; 3) Displacement Risk for Low-Income Residents; and 4) Substandard Housing Conditions.
+As outlined in the Housing Element, the City will be considering amendments to the General Plan Safety Element and Zoning Code following Housing Element adoption to meet State law and
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 7
+ensure consistency with the Element. An amendment to the Safety Element is required upon revision of the Housing Element to update descriptions and references in accordance with the Santa Barbara County Multi-Jurisdictional Hazard Mitigation Plan (MJHMP), and add a section on climate adaptation. An amendment to the Zoning Code is needed to modify a variety of regulations related to affordable housing. Potential environmental impacts associated with the Safety Element and Zoning Code amendments are not addressed in this Initial Study and will be considered pursuant to CEQA at a future date.
+A Note Regarding the Scope of This Initial Study. This Initial Study addresses potential environmental effects associated with the proposed Housing Element Update. In addition, as all of the sites identified to meet RHNA are already designated and/or zoned for residential development, the effects of redesignating and/or rezoning land do not need to be considered. This analysis does not address potential effects associated with future physical development of these or other sites which would be subject to subsequent environmental review.
+Public Agencies Whose Approval May Be Required For Subsequent Actions
+(e.g. permits, financing approval, or participation agreement)
+State of California, Department of Housing and Community Development (HCD).
+California Native American Tribes Consultation
+In accordance with the requirements of Assembly Bill (AB) 52 and Senate Bill (SB) 18, on January 20, 2023, the City sent project notification letters to all Native American Tribes included on a list provided by the Native American Heritage Commission. The letters contained a brief description of the Housing Element Update and offered tribes an opportunity to consult regarding potential effects on tribal cultural resources. No requests for consultation had been received by the City as of March 6, 2023.
+References
+This Initial Study was prepared using the following information sources and reference documents, which are on file at the City of Buellton Planning Department:
+ Buellton General Plan
+ Buellton Municipal Code
+ Buellton Zoning Ordinance
+ Buellton General Plan EIR
+ Buellton Environmental Procedures
+ Buellton Draft 2023-2031 Housing Element Update dated February 2023
+ Field Reconnaissance
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 8
+Environmental Determination
+The environmental factors checked below would be potentially affected by this project, involving at least one impact that is a “Potentially Significant Impact” as indicated by the checklist on the following pages. Aesthetics Agriculture & Forestry Resources Air Quality Biological Resources Cultural Resources Energy Geology / Soils Greenhouse Gas Emissions Hazards & Hazardous Materials Hydrology / Water Quality Land Use / Planning Mineral Resources Noise Population / Housing Public Services Recreation Transportation Tribal Cultural Resources Utilities / Service Systems Wildfire Mandatory Findings of Significance
+On the basis of this initial evaluation: I find that the proposed project COULD NOT have a significant effect on the environment, and a NEGATIVE DECLARATION will be prepared. I find that although the proposed project COULD have a significant effect on the environment, there will not be a significant effect in this case because revisions in the project have been made by or agreed to by the applicant. A MITIGATED NEGATIVE DECLARATION will be prepared. I find that the proposed project MAY have a significant effect on the environment, and an ENVIRONMENTAL IMPACT REPORT is required. I find that the proposed project MAY have a “potentially significant impact” or “potentially significant unless mitigated” impact on the environment, but at least one effect (1) has been adequately analyzed in an earlier document pursuant to applicable legal standards, and (2) has been addressed by mitigation measures based on the earlier analysis as described on attached sheets. An ENVIRONMENTAL IMPACT REPORT is required, but it must analyze only the effects that remain to be addressed. I find that although the proposed project could have a significant effect on the environment, because all potentially significant effects (a) have been analyzed adequately in an earlier EIR pursuant to applicable standards, and (b) have been avoided or mitigated pursuant to that earlier EIR, including revisions or mitigation measures that are imposed upon the proposed project, nothing further is required.
+Andrea Keefer Date
+Environmental Officer
+City of Buellton
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 2
+Evaluation of Environmental Impacts
+1) A brief explanation is required for all answers except “No Impact” answers that are adequately supported by the information sources a Lead Agency cites in the parentheses following each question. A “No Impact” answer is adequately supported if the referenced information sources show that the impact simply does not apply to projects like the one involved (e.g., the project falls outside a fault rupture zone). A “No Impact” answer should be explained where it is based on project-specific factors as well as general standards (e.g., the project will not expose sensitive receptors to pollutants, based on a project-specific screening analysis).
+2) All answers must take account of the whole action involved, including off-site as well as on-site, cumulative as well as project-level, indirect as well as direct, and construction as well as operational impacts.
+3) “Potentially Significant Impact” is appropriate if there is substantial evidence that an effect may be significant. If there are one or more “Potentially Significant Impact” entries when the determination is made, an EIR is required.
+4) “Negative Declaration: Less Than Significant With Mitigation Incorporated” applies where the incorporation of mitigation measures has reduced an effect from “Potentially Significant Impact” to a “Less Significant Impact.” The lead agency must describe the mitigation measures, and briefly explain how they reduce the effect to a less than significant level.
+5) Earlier analyses may be used where, pursuant to the tiering, program EIR, or other CEQA process, an effect has been adequately analyzed in an earlier EIR or negative declaration. Section 15063(c)(3)(D). Earlier analyses and references are discussed at the end of the checklist.
+6) Lead agencies are encouraged to incorporate into the checklist references to information sources for potential impacts (e.g., general plans, zoning ordinances). Reference to a previously prepared or outside document should, where appropriate, include a reference to the page or pages where the statement is substantiated.
+7) Supporting Information Sources: A source list should be attached, and other sources used or individuals contacted should be cited in the discussion.
+8) The analysis of each issue should identify:
+a) the significance criteria or threshold used to evaluate each question; and
+b) the mitigation measure identified, if any, to reduce the impact to less than significance
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 3
+I. Aesthetics Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+I. Aesthetics – Except as provided in Public Resources Code §21099, would the project:
+a) Have a substantial adverse effect on a scenic vista?
+
+b) Substantially damage scenic resources, including, but not limited to, trees, rock outcroppings, and historic buildings within a state scenic highway?
+
+c) Conflict with applicable zoning and other regulations governing scenic quality?
+
+d) Create a new source of substantial light or glare which would adversely affect day or nighttime views in the area?
+
+Impact Analysis
+a. and b. Scenic Vistas / Resources: No roadways in the City are designated as state or local scenic highways, although U.S. Highway 101 and State Route 246 are the primary public viewing corridors that bisect the City in a north-south and east-west direction. In addition, no federal or state designated historic sites are located in Buellton, although the rich historic heritage of the City suggests there are likely a number of historically significant structures in the area.
+The Housing Element Update would not directly result in physical development in the City, and no impacts to scenic vistas or resources would result. In addition, the identified RHNA sites are already designated and/or zoned to accommodate the density assumed in this analysis and no rezonings are proposed. Thus, the project would have no impact on scenic vistas or resources. Future development of the RHNA sites would be subject to subsequent environmental review and would need to comply with all applicable policies and regulations of the City, including the City’s Community Design Guidelines.
+c. Zoning / Regulations: The Housing Element Update would not involve physical development and would not conflict with zoning or regulations governing scenic quality. In addition, the RHNA sites identified in the Housing Element are already designated and/or zoned for development and would not conflict with regulations governing scenic quality. Thus, no impact would result. Future development on these sites would be subject to subsequent environmental review and would be required to conform with zoning and all other regulations governing scenic quality.
+d. Light and Glare: The proposed project would not directly result in development in the City and would not create light or glare in the City. Thus, no impact would result. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review and would be required to adhere to the City’s policies and regulations regarding light and glare, including Zoning Ordinance requirements for Dark Sky Compliant lighting.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 4
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 5
+II. Agriculture and Forestry Resources Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+II. Agriculture and Forestry Resources – Would the project:
+a) Convert Prime Farmland, Unique Farmland, or Farmland of Statewide Importance (Farmland) to non-agricultural use?
+
+b) Conflict with existing zoning for agricultural use, or a Williamson Act contract?
+
+c) Conflict with existing zoning for, or cause rezoning of, forest land (per Public Resources Code §12220(g)), timberland (Public Resources Code §4526, or timberland zoned Timberland Production (per Govt Code §51104(g))?
+
+d) Result in the loss of forest land or conversion of forest land to non-forest use?
+
+e) Involve other changes in the existing environment which, due to their location or nature, could result in conversion of Farmland, to non-agricultural use or conversion of forest land to non-forest use?
+
+Impact Analysis
+a. Farmland: The entire City of Buellton is designated as “Urban and Built-Up Land” according to the California Department of Conservation’s online farmland maps. The proposed Housing Element Update would not directly result in physical development in the City. In addition, future development on the sites identified in the Housing Element is already anticipated and would not convert important farmland, because there are no Prime, Unique, or Important Farmlands in the City. No impact to farmland would result.
+b. Agriculture, Williamson Act: The proposed Housing Element Update would not result in physical development in the City and would not conflict with existing zoning for agricultural use or a Williamson Act contract that restricts the use of land to agricultural or open space uses. In addition, the sites identified in the Housing Element are already designated and/or zoned for development and would not conflict with zoning or a Williamson Act contract, as there are no properties affected by these conditions. Thus, no impact would result.
+c. thru d. Forest Land, Timberlands: The City of Buellton does not contain any property zoned or designated as forest land (as defined in Public Resources Code §12220(g)) or timberland (as defined in Public Resources Code §4526). In addition, the City has no land designated or zoned for forestry or timberland resources. The proposed Housing Element Update is a policy document that will not directly result in physical development. In addition, because there are no forest lands, timberlands, or properties zoned for forestry or timber production in the City of Buellton, the sites referenced in the Housing Element would not conflict with forestry resources. No impact would result.
+e. Farmland, Forest Land, Timberland: The proposed project would not directly result in physical development of the City and the sites identified in the Housing Element are
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 6
+consistent with existing general plan and zoning designations. Thus, the project would not result in the conversion of farmland or forest land and no impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 7
+III. Air Quality Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+III. Air Quality - Where available, the significance criteria established by the applicable air quality management or air pollution control district may be relied upon to make the following determinations. Would the project:
+a) Conflict with or obstruct implementation of the applicable air quality plan?
+
+b) Result in a cumulatively considerable net increase of any criteria pollutant for which the project region is non-attainment under an applicable federal or state ambient air quality standard?
+
+c) Expose sensitive receptors to substantial pollutant concentrations?
+
+d) Result in other emissions (such as those leading to odors) adversely affecting a substantial number of people?
+
+e) Exceed the SBCAPCD threshold standards for Reactive Organics or Nitrogen Oxides (ozone precursors)?
+
+Impact Analysis
+a. Air Quality Plan: The Santa Barbara County Air Pollution Control District (SBCAPCD) Guidelines state that a project is consistent with the Clean Air Plan if its direct and indirect emissions have been accounted for in the Clean Air Plan’s emissions forecast assumptions and if it would incorporate the standard fugitive dust control measures recommended by SBCAPCD during construction activities. The Final EIR prepared for the 2025 Buellton General Plan identified a significant and unavoidable air quality impact because the General Plan projected build-out population that exceeded that considered in the 2004 Clean Air Plan.
+The current SBCAPCD CAP is the 2013 CAP which was adopted in 2015. The CAP relies primarily on the land use and population projections provided by the Santa Barbara County Association of Governments (SBCAG). The 2013 CAP utilized SBCAG’s Regional Growth Forecast 2010-2040, adopted December 2012, to project population growth and associated air pollutant emissions for Santa Barbara County. Land use assumptions were in turn derived from General Plans, local planning staff input and other sources.
+The proposed project includes updates to a policy document and would not directly result in physical development in the City that would generate emissions. In addition, the sites identified for future development in the Housing Element Update are consistent with applicable regulations and policies and no rezonings are required. Thus, no impact would result.
+b. Criteria Pollutants: Cumulative impacts may result from individually minor but collectively significant projects, which “when considered together, are considerable or which compound or increase other environmental impacts” (CEQA Guidelines §15355). According to SBCAPCD, Santa Barbara County is in attainment/unclassified for all federal ambient air
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 8
+quality standards. However, the County is in nonattainment for the state ozone standard and the PM10 (particulate matter) standard. The proposed project would not directly result in physical development in the City that could affect attainment levels. In addition, the sites included in the Housing Element are already planned for development and would not impact the County’s ability to achieve standards. No impact would result.
+c. Sensitive Receptors: Sensitive receptors are children, elderly, asthmatics, and others who are at a heightened risk of negative health outcomes due to exposure to air pollution. The project would not result in physical development that could increase pollutant concentrations and affect sensitive receptors. In addition, the sites identified in the Housing Element for future development are consistent with the City’s land use policies and regulations. No impact would result. Future residential development proposals on these sites would be subject to subsequent environmental review including an assessment of impacts on sensitive receptors.
+d. Emissions Affecting People: Because the proposed project would not generate pollutants or odors, it would not adversely affect a substantial number of people. No impact would result.
+e. Ozone Precursors: As outlined in III.b above, the proposed project would not directly result in physical development and the sites identified in the Housing Element are already designated and/or zoned for development. Thus, the project would not generate ozone precursors in excess of SBCAPCD’s threshold standards and no impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 9
+IV. Biological Resources Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+IV. Biological Resources - Would the project:
+a) Have a substantial adverse impact, either directly or through habitat modifications, on any species identified as a candidate, sensitive, or special status species in local or regional plans, policies, or regulations, or by the California Department of Fish and Wildlife or U.S. Fish and Wildlife Service?
+
+b) Have a substantial adverse impact on any riparian habitat or other sensitive natural community identified in local or regional plans, policies, regulations or by the California Department of Fish and Wildlife or U.S. Fish and Wildlife Service?
+
+c) Have a substantial adverse effect on federally protected wetlands as defined by Section 404 of the Clean Water Act (including, but not limited to, marsh, vernal pool, coastal, etc.) through direct removal, filling, hydrological interruption, or other means?
+
+d) Interfere substantially with the movement of any native resident or migratory fish or wildlife species or with established native resident or migratory wildlife corridors, or impede the use of wildlife nursery sites?
+
+e) Conflict with any local policies or ordinances protecting biological resources, such as a tree preservation policy or ordinance?
+
+f) Conflict with the provisions of an adopted Habitat Conservation Plan, Natural Conservation Community Plan, or other approved local, regional, or state habitat conservation plan?
+
+Impact Analysis
+a. Sensitive Species: Buellton is an urbanized community that supports ornamental, non-native, and native plant and wildlife habitats. Ornamental plant communities are located throughout the residential, commercial, and industrial areas of the City. Non-native annual grassland and native habitat types, including riparian, coastal scrub, and oak woodland habitat, occur primarily on the edges of the community. Several candidate, sensitive, or special status plant and animal species are known or suspected to exist in the grassland and native habitat areas.
+As previously identified, the Housing Element Update is a policy document that would not directly result in the construction, modification, or improvement of residential development in the City. In addition, the sites identified in the Housing Element are already designated and/or zoned for development and would not have an adverse effect on any species identified as candidate, sensitive, or special status, and no impact would result. Future residential development proposals on these sites would be subject to subsequent environmental review and is not a part of this analysis.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 10
+b. Riparian Habitat: Riparian habitats associated with the Santa Ynez River and three tributary creeks exist in the City of Buellton. Riparian habitats are generally considered to be a sensitive natural community by the California Department of Fish & Wildlife (CDFW) and are also under the jurisdiction of CDFW pursuant to Section 1600 et seq. of the California Fish and Game Code, and the Regional Water Quality Control Boards {RWQCB) under the Porter-Cologne Act. Riparian habitats along the river and natural drainage features are also considered sensitive by the City. The proposed project would not directly result in develop-ment in the City and as such would not have a substantial adverse impact on any riparian habitat or other sensitive natural community identified in local or regional plans, policies, regulations or by the California Department of Fish and Wildlife or the U.S. Fish and Wildlife Service. Thus, no impact would result.
+c. Wetlands: The proposed Housing Element Update is a policy document that would not result in physical development in the City. In addition, the sites identified in the Housing Element are already designated and/or zoned for development and no rezonings are required. Thus, no impact to wetlands would result. Future residential development proposals in the City would be subject to subsequent environmental review and would be analyzed for potential effects related to wetlands.
+d. Wildlife Corridors: The proposed project would not result in physical development in the City. As such, the project would not interfere with the movement of any native resident or migratory fish or wildlife species or impact the use of native wildlife nursery sites, and no impact would result.
+e. Local Policies: The project would not directly result in physical development in the City and would not conflict with any local policies or ordinances protecting biological resources, including policies in the City’s General Plan Conservation and Open Space Element, as detailed in the Land Use and Planning section of this IS/ND, or the City’s Native Tree Protection Ordinance, because no native trees will be removed or disturbed as part of the project. No impact is anticipated.
+f. Habitat Conservation Plan: No local, regional, or state conservation plans have been prepared for the City. In addition, the project would not directly result in physical development in the City no impact would occur.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 11
+V. Cultural Resources Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+V. Cultural Resources - Would the project:
+a) Cause a substantial adverse change in the significance of a historical resource as defined in §15064.5?
+
+b) Cause a substantial adverse change in the significance of an archaeological resource pursuant to §15064.5?
+
+c) Disturb any human remains, including those interred outside of formal cemeteries?
+
+Impact Analysis
+a. Historical Resources: The Housing Element is a policy document that includes goals and policies to encourage new and affordable housing development in Buellton. The Housing Element Update would not directly result in physical development in the City and thus would not affect historical resources. In addition, the sites identified in the housing element are already designated and/or zoned for development and thus would not introduce development into an area not previously identified for development. Thus, no impact to historical resources would occur. Future development on the sites identified in the Housing Element is not part of this analysis and would be subject to subsequent environmental review.
+b. and c. Archaeological Resources: The proposed project would not directly result in physical development and would not impact archaeological resources or human remains. Future development on the RHNA sites is not part of this analysis and would be subject to subsequent environmental review for potential impacts related to archaeological resources and human remains.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 12
+VI. Energy Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+VI. Energy - Would the project:
+a) Result in potentially significant environmental impact due to wasteful, inefficient, or unnecessary consumption of energy resources, during project construction or operation?
+
+b) Conflict with or obstruct a state or local plan for renewable energy or energy efficiency?
+
+Impact Analysis
+a. Energy Resources: The proposed Housing Element Update would not directly result in physical development and would not consume energy resources. In addition, the sites identified in the Housing Element to meet RHNA are already designated and/or zoned for residential development and would not introduce residential development into an area that was not already planned. Thus, no impact would result. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review and is not a part of this analysis.
+b. Energy Plans: The proposed project does not propose physical development and would not conflict with or obstruct a state or local plan for renewable energy or energy efficiency. Thus, no impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 13
+VII. Geology and Soils Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+VII. Geology and Soils - Would the project:
+a) Directly or indirectly cause potential substantial adverse effects, including the risk of loss, injury, or death involving:
+i) Rupture of a known earthquake fault, as delineated on the most recent Alquist-Priolo Earthquake Fault Zoning Map issued by the State Geologist for the area or based on other substantial evidence of a known fault?
+
+ii) Strong seismic ground shaking?
+
+iii) Seismic-related ground failure, including liquefaction?
+
+iv) Landslides?
+
+b) Result in substantial soil erosion or the loss of topsoil?
+
+c) Be located on a geologic unit or soil that is unstable, or that would become unstable as a result of the project, and potentially result in on- or off-site landslide, lateral spreading, subsidence, liquefaction or collapse?
+
+d) Be located on expansive soil creating substantial direct or indirect risks to life or property?
+
+e) Have soils incapable of adequately supporting the use of septic tanks or alternative waste water disposal systems where sewers are not available for the disposal of waste water?
+
+f) Directly or indirectly destroy a unique paleontological resource or site or unique geologic feature?
+
+Impact Analysis
+a. Geologic Hazards (i-iv): The Central Coast of California is an active seismic region, and moderate to strong earthquakes can occur on numerous faults. According to the General Plan Safety Element, no active or potentially active faults exist in the City. However, the Santa Ynez Fault and the Los Alamos Fault are located approximately 7 miles from the City, and the San Andreas fault is located approximately 50 miles to the northeast. Because of these and other faults in the region, there is a potential for seismic-related ground failure, liquefaction, and landslides in the City.
+The proposed Housing Element Update would not directly result in physical development and would not be subject to fault rupture, seismic ground shaking or failure, liquefaction, or landslides. In addition, the sites identified in the Housing Element to meet RHNA are already designated and/or zoned for residential development and would not introduce residential development into an area that was not already planned. Thus, no impact would result. Future development on these sites would be subject to subsequent review including an assessment of geologic hazards.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 14
+b. through d. Geologic Units/Soils: The proposed Housing Element Update is a policy and document that includes goals and policies to encourage new and affordable housing development in Buellton. The Housing Element Update would not directly result in physical development in the City and thus would not result in soil erosion or be affected by unstable or expansive soils or geologic units. The sites identified in the Housing Element to meet RHNA are already designated and/or zoned for residential development and would not introduce residential development into an area that was not already planned. Thus, no impact would result. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review and is not a part of this analysis.
+e. Septic Systems: The proposed project would not directly result in physical development and thus would not have soils incapable of supporting waste disposal systems. No impact would result.
+f. Paleontological / Geologic Resources: The proposed project would not directly result in physical development that could impact paleontological resources. Thus, no impact would result. Future housing development on the sites included in the Housing Element would be subject to subsequent environmental review including potential effects on paleontological/geologic resources.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 15
+VIII. Greenhouse Gas Emissions Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+VIII. Greenhouse Gas Emissions - Would the project:
+a) Generate greenhouse gas emissions, either directly or indirectly, that may have a significant impact on the environment?
+
+b) Conflict with any applicable plan, policy, or regulation adopted for the purpose of reducing the emissions of greenhouse gases?
+
+Impact Analysis
+a. GHG Generation: Greenhouse gases (GHGs) are naturally present in the atmosphere and are released by natural sources or formed from secondary reactions taking place in the atmosphere. In addition, human activities over the past 200 years have caused greatly increased quantities of GHGs to be released into the atmosphere, which in turn increases the natural greenhouse effect and is thought to cause climate change. Human-induced GHGs include the following:
+ Carbon dioxide (CO2)
+ Methane (CH4)
+ Nitrous oxide (N2O)
+ Hydrofluorocarbons (HFCs)
+ Perfluorocarbons (PFCs)
+ Sulfur hexafluoride (SF6)
+The Housing Element Update is a policy document that would not generate greenhouse gas emissions. In addition, the sites identified in the Housing Element for future residential development are already designated and/or zoned for residential use and would not introduce unanticipated development into the area. Thus, no impact would result. Future housing proposals on these sites would be subject to subsequent environmental review and is not a part of this analysis.
+b. GHG Plans/Policies: In 2006, California adopted AB 32, which required the state to reduce statewide GHG emissions to 1990 levels by 2020. In 2016, California adopted SB 32, which required the state to reduce statewide GHG emissions to 40% below 1990 levels by 2030. AB 32 and SB 32 codified state targets and directed state regulatory agencies to develop rules and regulations to meet the targets; AB 32 and SB 32 do not stipulate project‐specific requirements. Specific requirements are codified in rules and regulations developed by regulatory agencies such as CARB and SCAQMD, and local City ordinances.
+The AB 32 2008 Scoping Plan outlined the state’s strategy to achieve the 2020 GHG emissions reduction target via a set of recommended measures. The implementation of these measures relies on actions on the part of state agencies and local governments, not individual projects. Actions include, but are not limited to, development and implementation of rules, market projects, zero‐emission projects, renewable fuel standards, the Low Carbon Fuel Standard
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 16
+(LCFS), vehicle efficiency measures, energy efficiency projects, green building strategies, market‐based mechanisms, incentive measures, as well as land use planning and permitting.
+In 2014, CARB adopted an update to the 2008 Scoping Plan that built upon the initial Scoping Plan, with new strategies to achieve the 2020 AB 32 state target. In 2017, CARB adopted a second update to the 2008 Scoping Plan. The 2017 Scoping Plan Update highlights the state’s progress toward meeting the 2020 GHG emission reduction goal, identifies funding opportunities to reduce GHG emissions through state planning and low carbon investments, identifies climate change priorities for 5 years, and sets the groundwork to reach long‐term goals. The 2017 Scoping Plan Update also includes specific recommended actions for lead agencies and identifies possible regulatory actions for vehicles and fuels.
+The 2008 Scoping Plan, the 2014 Scoping Plan Update, and the 2017 Scoping Plan Update envision that reductions in GHG emissions will come from virtually all sectors of the economy and be accomplished from a combination of policies, planning, direct regulations, market approaches, incentives, and voluntary efforts. These efforts also target GHG emissions reductions from cars and trucks, electricity production, and fuels; implementation relies on actions on the part of state agencies and local governments, not individual projects.
+The Housing Element Update would not result in development that could conflict with the Scoping Plan or any other plan, policy, or regulation adopted for the purpose of reducing greenhouse gas emissions. In addition, the sites identified in the Housing Element are already designated and/or zoned for residential use and would not introduce unanticipated development into the area. Thus, no impact would result. Future housing proposals on these sites would be subject to subsequent environmental review.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 17
+IX. Hazards and Hazardous Materials Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+IX. Hazards and Hazardous Materials - Would the project:
+a) Create a significant hazard to the public or the environment through the routine transport, use, or disposal of hazardous materials?
+
+b) Create a significant hazard to the public or the environment through reasonably foreseeable upset and accident conditions involving the release of hazardous materials into the environment?
+
+c) Emit hazardous emissions or handle hazardous or acutely hazardous materials, substances, or waste within one-quarter mile of an existing or proposed school?
+
+d) Be located on a site which is included on a list of hazardous materials sites compiled pursuant to Government Code §65962.5 and, as a result, would it create a significant hazard to the public or the environment?
+
+e) For a project located within an airport land use plan or, where such a plan has not been adopted, within two miles of a public airport or public use airport, would the project result in a safety hazard for people residing or working in the project area?
+
+f) Impair implementation of or physically interfere with an adopted emergency response plan or emergency evacuation plan?
+
+g) Expose people or structures, either directly or indirectly, to a significant risk of loss, injury or death involving wildland fires?
+
+Impact Analysis
+a. Hazardous Substances: The Housing Element Update will not result in direct physical development in the City. In addition, the sites identified in the Housing Element are already designated and/or zoned for residential use and would not introduce unanticipated development into the area. Thus, no impact related to hazardous substances would result. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review including an analysis of potential hazardous substances.
+b. Hazardous Materials Releases: The proposed Housing Element Update and the sites identified in the Housing Element would not result in direct physical development in the City and thus would not result in impacts related to upset or accidental release of hazardous materials.
+c. Hazardous Materials Near Schools: Schools in Buellton include one elementary school and one middle school operated by the Buellton Union School District and one K-12 Charter School. All are located near Highway 246 in the central portion of the City. The proposed project does not include any development and thus would not expose existing or proposed
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 18
+schools to hazardous emissions, materials, substances, or waste. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review including an analysis of potential hazardous substances near schools.
+d. Hazardous Materials Sites: The proposed Housing Element Update would not result in direct physical development in the City and would not result in impacts on hazardous waste sites or create a hazard to the public or the environment. In addition, none of the sites referenced in the Housing Element are included in any list of hazardous materials sites compiled pursuant to Government Code §65962.5. No impact would occur.
+e. Public and Private Airstrip Safety Hazards: No public or private airports or airstrips are located within 2 miles of the City of Buellton. No impact is anticipated.
+f. Emergency Response/Evacuation: As a policy document, the proposed Housing Element Update would not result in physical development in the City and would not impair implementation of or physically interfere with the City’s adopted 2018 Emergency Management Plan or the 2017 Local Hazard Mitigation Plan. In addition, the sites identified in the Housing Element are already designated and/or zoned for residential use and would not introduce unanticipated development into the area that could conflict with emergency response. No impact is anticipated.
+g. Wildland Fire Hazards: The City of Buellton is not located in a high fire hazard severity area according to maps provided by the State Fire Marshall. Nonetheless, the Santa Ynez Valley is subject to wildland fires particularly during prolonged dry periods from late spring through the fall when seasonal winds increase local fire hazards. The proposed policy document would not result in physical development and would not expose people or structures to wildland fires. In addition, the residential development sites referenced in the Housing Element are already planned for future development and would not introduce a new unanticipated land use. No impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 19
+X. Hydrology and Water Quality Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+X. Hydrology and Water Quality - Would the project:
+a) Violate Regional Water Quality Control Board water quality standards or waste discharge requirements or otherwise substantially degrade surface or ground water quality?
+
+b) Substantially decrease groundwater supplies or interfere substantially with groundwater recharge such that the project may impede sustainable groundwater management of the basin?
+
+c) Substantially alter the existing drainage pattern of the site or area, including through the alteration of the course of a stream or river or through the addition of impervious surfaces, in a manner that would:
+i) Result in substantial erosion or siltation on- or off-site?
+ii) Substantially increase the rate or amount of surface runoff in a manner that would result in flooding on- or off-site?
+iii) Create or contribute runoff water which would exceed the capacity of existing or planned stormwater drainage systems or provide substantial additional sources of polluted runoff?
+iv) Impede or redirect flood flows?
+
+d) In flood hazard, tsunami, or seiche zones, risk release of pollutants due to project inundation?
+
+e) Conflict with or obstruct implementation of a water quality control plan or sustainable groundwater management plan?
+
+Impact Analysis
+a. RWQCB Standards: The proposed Housing Element Update would not directly result in physical development in the City and would not violate any Regional Water Quality Control Board (RWQCB) standards. In addition, the sites identified in the Housing Element are already designated and/or zoned for residential use and would not introduce unanticipated development into the area. Thus, no impact would result. Future development of housing on the sites identified in the Housing Element would be subject to subsequent environmental review and would be required to comply with all applicable standards.
+b. Groundwater Supply: Water is supplied to the City of Buellton from the Buellton Uplands Groundwater Basin, the Santa Ynez River Riparian Basin, and the State Water Project (SWP). Water allocation from the SWP varies based on local demand and availability. Therefore, the City’s SWP supplies may fluctuate based on the quantity of water the City needs to meet demand and whether or not it is available from the state. Neither groundwater basin is in a state of overdraft.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 20
+The proposed project would not involve physical development and would not affect groundwater supplies or recharge. In addition, the sites identified in the Housing Element are already planned for development and thus have been accounted for in the Central Coast Water Authority’s (CCWA) Urban Water Management Plan (UWMP), which projects water needs based on general plan and zoning regulations. No impact would result.
+c. Drainage Patterns: The proposed Housing Element Update, including the identified RHNA sites, would not directly result in physical development and thus would not affect or alter existing drainage patterns. No impact would result.
+d. Flood Hazard, Tsunami, or Seiche Zones: As outlined in the Safety Element, much of the City is within the 100- and 500-year FEMA flood boundary for Santa Ynez Creek and its tributaries. Development in the City is required to meet the standards of the Flood Plain Administrator if located in a flood zone. In addition, although inundation caused by failure or flooding of the Bradbury Dam (Lake Cachuma) located about twelve miles to the east of the City is considered unlikely, it could potentially inundate property in the central and southern portions of the City of Buellton. The Bureau of Reclamation is the responsible agency for the dam, and under its Dam Safety Program, the Bureau regularly monitors, examines and evaluates the performance of the Bradbury Dam to ensure facilities do not present unreasonable risks to the public, property, or the environment. The Santa Barbara County Office of Emergency Management (OEM) maintains inundation maps, and the County Sheriff’s Office is the authority responsible for identifying evacuation zones and actions to be taken for dam inundation events. The City is not subject to tsunamis or seiches.
+Buellton is subject to a National Pollutant Discharge Elimination System (NPDES) General Permit (MS4), which authorizes the City to discharge stormwater collected by its storm sewer systems to waters of the United States. As part of the permit, the City developed a Storm Water Management Program to outline measures to reduce the discharge of pollutants. The Program includes best management practices for development to retain and filter water onsite.
+The proposed project does not include physical development, and there is no risk of release of pollutants due to project inundation. Thus, no impact would result.
+e. Water Quality Control Plan / Sustainable Groundwater Management Plan: Buellton is subject to the Central Management Area (CMA) Groundwater Sustainability Plan (GSP), which outlines how the Santa Ynez River Valley Groundwater Basin will achieve sustainability by 2042. According to the GSP, the Santa Ynez River is the primary surface water source in the basin, and the Buellton Aquifer is the principal aquifer in the basin. The GSP indicates that current Basin conditions are sustainable and no undesirable results (defined as significant and unreasonable impacts to sustainability indicators) are occurring.
+The proposed Housing Element Update would not conflict with or obstruct implementation of the CMA GSP. In addition, the sites identified in the Housing Element to meet RHNA are already designated and/or zoned for residential development and would not introduce residential development into an area that was not already planned. No impact would result. Future development on the sites would be subject to subsequent environmental review and would be evaluated to ensure complies with all applicable requirements regarding water quality and groundwater management.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 21
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 22
+XI. Land Use and Planning Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XI. Land Use and Planning - Would the project:
+a) Physically divide an established community?
+
+b) Cause a significant environmental impact due to a conflict with any land use plan, policy, or regulation adopted for the purpose of avoiding or mitigating an environmental effect?
+
+Impact Analysis
+a. Physical Division of Established Communities: The Housing Element Update is a policy document that would not directly result in physical development in the City. In addition, the Housing Element Update includes policies to preserve existing residential land uses and promote the development of Accessory Dwelling Units (ADUs) within established neighborhoods. In addition, the Housing Element demonstrates that the City’s RHNA can be met without rezoning additional properties for housing. The sites included in the RHNA are urban infill properties that are already planned for development. As such, they would be located near public transportation, schools, and services and would not require the construction of new roads or infrastructure to support new development. No impact would result.
+b. Policy Consistency: The proposed project is consistent with all applicable policies of the General Plan. In addition, the sites identified for future housing are already planned for development and would not introduce development into new areas. In addition, although the General Plan and the Zoning Map designate AHOZ Sites II and VII for General Commercial land uses, the AHOZ Ordinance specifically allows residential development on these sites provided that affordability levels and other requirements are met. Thus, the project would not cause a significant environmental impact due to a conflict with any land use plan, policy, or regulation adopted for the purpose of avoiding or mitigating an environmental effect. No impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 23
+XII. Mineral Resources Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XII. Mineral Resources - Would the project:
+a) Result in the loss of availability of a known mineral resource that would be of value to the region and the residents of the state?
+
+b) Result in the loss of availability of a locally-important mineral resource recovery site delineated on a local general plan, specific plan or other land use plan?
+
+Impact Analysis
+a. and b. Mineral Resources: The Buellton General Plan indicates that although sand, gravel, and rock are extracted from the Santa Ynez River bed near Buellton, no extraction occurs within the City limits. No other mineral resources are known to exist in the City. In addition, the proposed Housing Element Update would not directly result in physical development that could potentially impact mineral resources. The sites identified in the Housing Element for future residential development are already planned for development and are not known to contain mineral resources.. No impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 24
+XIII. Noise Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XIII. Noise - Would the project result in:
+a) Generation of a substantial temporary or permanent increase in ambient noise levels in the vicinity of the project in excess of standards established in the local general plan or noise ordinance, or applicable standards of other agencies?
+
+b) Generation of excessive groundborne vibration or groundborne noise levels?
+
+c) For a project located within the vicinity of a private airstrip or an airport land use plan or, where such a plan has not been adopted, within two miles of a public airport or public use airport, would the project expose people residing or working in the project area to excessive noise levels?
+
+d) Generation of noise levels in excess of the noise level standards contained in the Noise Element of the General Plan?
+
+Impact Analysis
+a. and b. Noise and Vibration: The proposed Housing Element Update, including the identified RHNA sites, would not directly result in physical development in the City and would thus not increase ambient noise levels, groundborne noise levels, or groundborne vibration in the City. No impact would result. Physical development of the RHNA sites is not addressed in this Initial Study and would be subject to subsequent environmental review.
+c. Airport / Airstrip Noise: As identified in Section IX, Hazards and Hazardous Materials, no public or private airports or airstrips are located within or near the City of Buellton. The project would not expose people residing or working in the project area to excessive airport or airstrip noise levels and no impact would result.
+d. General Plan Noise Levels: The General Plan Noise Element contains policies restricting the generation of noise to compatible levels. The proposed project would not result in development that would generate noise. No impact is anticipated.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 25
+XIV. Population and Housing Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XIV. Population and Housing - Would the project:
+a) Induce substantial population growth in an area, either directly (for example, by proposing new homes and businesses) or indirectly (for example, through extension of roads or other infrastructure)?
+
+b) Displace substantial numbers of existing people or housing, necessitating the construction of replacement housing elsewhere?
+
+Impact Analysis
+a. Population Growth: The Housing Element Update would not directly result in physical development in the City and thus would not induce population growth in the area. Future development on the sites identified in the Housing Element are already planned for residential development by the General Plan and/or the AHOZ Ordinance. Thus, no impact would result.
+b. Displacement: The proposed project would not result in physical development and thus would not result in the displacement of substantial numbers of people or housing. No impact would result. Future development on the sites identified in the Housing Element would be subject to subsequent review.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 26
+XIV. Public Services Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XIV. Public Services - Would the project result in substantial adverse physical impacts associated with the provision of new or physically altered govern-mental facilities, need for new or physically altered governmental facilities, the construction of which could cause significant environmental impacts, in order to maintain acceptable service ratios, response times or other performance objectives for any of the public services:
+a) Fire protection?
+
+b) Police protection?
+
+c) Schools?
+
+d) Parks?
+
+e) Other public facilities?
+
+Impact Analysis
+a. through e. Public Services: The Housing Element Update would not directly result in physical development in the City. As such, it would not result in substantial adverse physical impacts associated with the provision of new or physically altered governmental facilities or services. In addition, the housing sites included in the Housing Element are already planned for future development and no impact would result. Future development proposals on these sites will be reviewed on a case-by-case basis to determine if development fees or other mitigation is required to ensure no impact to public facilities will result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 27
+XVI. Recreation Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XVI. Recreation
+a) Would the project increase the use of existing neighborhood and regional parks or other recreational facilities such that substantial physical deterioration of the facility would occur or be accelerated?
+
+b) Does the project include recreational facilities or require the construction or expansion of recreational facilities that might have an adverse physical effect on the environment?
+
+Impact Analysis
+a. and b. Parks and Recreation: The Housing Element Update is a policy document and would not directly result in physical development in the City. As such, it would not increase the use of park and recreational facilities or require the construction or expansion of facilities. In addition, the housing sites included in the Housing Element are already designated and/or zoned for residential development. No impact would result. Future development proposals on these sites will be reviewed on a case-by-case basis to determine if development fees or other mitigation is required to ensure no impact to recreational facilities would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 28
+XVIII. Transportation Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XVII. Transportation - Would the project:
+a) Conflict with a program, plan, ordinance or policy addressing the circulation system, including transit, roadway, bicycle and pedestrian facilities?
+
+b) Conflict or be inconsistent with CEQA Guidelines §15064.3, subdivision (b)?
+
+c) Substantially increase hazards due to a geometric design feature (e.g., sharp curves or dangerous intersections) or incompatible uses (e.g., farm equipment)?
+
+d) Result in inadequate emergency access?
+
+e) Cause an intersection or roadway segment to deteriorate to a Level of Service ‘D’ or worse, or generate traffic in excess of Congestion Management Plan threshold levels?
+
+Impact Analysis
+a. Program/Plan/Policy Consistency: The proposed project includes policy updates and would not directly result in development that could conflict with the City’s Circulation Element or any other program, plan, ordinance, or policy addressing the circulation system in the City. Likewise, development on the sites referenced in the Housing Element is already anticipated by the land use plan and would not introduce new development that could conflict with applicable plans or policies. No impact would result.
+b. Vehicle Miles Travelled (VMT): Section 15064.3 of the CEQA Guidelines states that a project’s transportation impacts should be analyzed through an assessment of its vehicle miles travelled (VMT). The proposed Housing Element Update would not directly result in physical development and thus would not result in any VMT. In addition, development on the sites identified in the Housing Element are not expected to conflict with CEQA §15064.3(b), because the sites are already planned for development, are of relatively small size, and are situated in an area served by transit. In addition, because most of the sites will include an affordable housing component, they will likely improve the jobs-housing balance and shorten commutes as stated in the Governor’s Office of Planning and Research (OPR) Technical Advisory on Evaluating Transportation Impacts (December 2018). Therefore, no impacts to VMT would result. When development is proposed on these sites, it will be subject to subsequent environmental review to that ensure transportation impacts will not result.
+c. Hazards: The proposed project will not directly result in physical development and thus will not increase hazards due to a geometric design feature. No impact would result.
+d. Emergency Access: The proposed project will not directly result in physical development and thus will not result in inadequate emergency access. No impact will result.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 29
+e. Level of Service / Congestion Management Plan: The proposed project will not directly result in physical development and thus will not cause an intersection or road segment to deteriorate to Level of Service (LOS) ‘D’ or worse, or conflict with a Congestion Management Plan. In addition, the sites referenced in the Housing Element are already designated and/or zoned for residential development and no impact would result.
+Findings and Mitigation
+No impacts would occur; therefore, no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 30
+XVIII. Tribal Cultural Resources Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XVIII. Tribal Cultural Resources - Would the project:
+a) Would the project cause a substantial adverse change in the significance of a tribal cultural resource, defined in Public Resources Code §21074 as either a site, feature, place, cultural landscape that is geographically defined in terms of the size and scope of the landscape, sacred place, or object with cultural value to a California Native American tribe, and that is:
+i) Listed or eligible for listing in the California Register of Historical Resources, or in a local register of historical resources as defined in Public Resources Code §5020.1(k), or
+
+ii) A resource determined by the lead agency, in its discretion and supported by substantial evidence, to be significant pursuant to criteria set forth in subdivision (c) of Public Resources Code §5024.1. In applying the criteria set forth in subdivision (c) of Public Resource Code §5024.1, the lead agency shall consider the significance of the resource to a California Native American tribe.
+
+Impact Analysis
+a)i. Historical Resources Register: The proposed project is an update of the Buellton Housing Element which applies to the entire City. The project does not involve physical development and would not affect any properties listed or eligible for listing in a state or local register of historical resources.. No impact is anticipated.
+a)ii. Other Significant Resources: Santa Barbara County contains a rich prehistory with the earliest occupation estimated at 8,000 years Before Present (BP). As a policy document, the proposed Housing Element Update would not result in direct physical development and thus would not cause a substantial adverse change in the significance of any archaeological resources, and no impact would result. In addition, the sites identified in the Housing Element to satisfy RHNA are already designated and zoned for residential development, and no rezones are required. Thus, no impact would result.
+Assembly Bill 52 requires that a lead agency begin consultation with California Native American tribes that request consultation prior to release of a project Negative Declaration, a Mitigated Negative Declaration, or an EIR. Tribes who receive a formal notification under AB 52 have 30 days to respond and request consultation. The City of Buellton notified affected tribes about the project on January 20, 2023. No tribes requested consultation under AB 52.
+In addition, Senate Bill 18 requires that a lead agency consult with Native American tribes for any project involving adoption of an amendment to a general plan or a specific plan. The proposed Housing Element Update is a general plan amendment and thus is subject to SB 18.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 31
+Tribes who receive a formal notification under SB 18 have 90 days to request consultation. On January 20, 2023, the City notified tribes of the Housing Element Update per SB 18. As of March 6, 2023, no tribes had requested consultation under SB 18, and the period to request consultation will remain open through April 20, 2023.
+Findings and Mitigation
+No impact would result, and no mitigation is required. In addition, this section will be updated as necessary following the close of the SB 18 tribal notification consultation period.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 32
+XIX. Utilities and Service Systems Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XIX. Utilities And Service Systems -Would the project:
+a) Require or result in the relocation or construction of new or expanded water, waste water treatment or storm water drainage, electric power, natural gas, or telecommunications facilities, the construction or relocation of which could cause significant environmental effects?
+
+b) Have sufficient water supplies available to serve the project and reasonably foreseeable future development during normal, dry and multiple dry years?
+
+c) Result in a determination by the waste water treatment provider which serves or may serve the project that it has adequate capacity to serve the project's projected demand in addition to the provider's existing commitments?
+
+d) Generate solid waste in excess of state or local standards, or in excess of the capacity of local infrastructure, or otherwise impair the attainment of solid waste reduction goals?
+
+e) Comply with federal, state, and local management and reduction statutes and regulations related to solid waste?
+
+Impact Analysis
+a. Water / Wastewater Treatment Facilities: As previously identified, the Housing Element would not directly result in the construction, modification, or improvement of residential development in the City. As such, the project would not require the construction or expansion of water or wastewater treatment that could cause significant environmental effects. In addition, the sites identified for future housing in the Housing Element are already planned for development by the General Plan and would not introduce new, unanticipated development that could affect water or wastewater facilities. No impact would result.
+b. and c. Water / Wastewater Supplies / Capacity: The proposed project would not directly result in development and thus would not impact water supplies or wastewater treatment capacity. In addition, the sites identified for future housing are already planned for development by the General Plan and thus have been accounted for in the applicable water and wastewater master plans. No impact would result.
+d. and e. Solid Waste: The proposed project would not directly result in development and thus would not generate solid waste or conflict with waste reduction regulations or statutes. No impact would result.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 33
+Findings and Mitigation
+No significant impacts would occur, so no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 34
+XX. Wildfire Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+XX. Wildfire - If located in or near state responsibility areas or lands classified as very high fire hazard severity zones, would the project:
+a) Substantially impair an adopted emergency response plan or emergency evacuation plan?
+
+b) Due to slope, prevailing winds, and other factors, exacerbate wildfire risks, and thereby expose project occupants to pollutant concentrations from a wildfire or the uncontrolled spread of a wildfire?
+
+c) Require the installation or maintenance of associated infrastructure (such as roads, fuel breaks, emergency water sources, power lines or other utilities) that may exacerbate fire risk or that may result in temporary or ongoing impacts to the environment?
+
+d) Expose people or structures to significant risks, including downslope or downstream flooding or landslides, as a result of runoff, post-fire slope instability, or drainage changes?
+
+Impact Analysis
+a. Emergency Response Plan: Emergency Response/Evacuation: As a policy document, the proposed Housing Element Update would not result in physical development in the City and would not impair implementation of or physically interfere with the City’s adopted 2018 Emergency Management Plan or the 2017 Local Hazard Mitigation Plan. In addition, the sites identified in the Housing Element are already designated and/or zoned for residential use and would not introduce unanticipated development into the area that could conflict with emergency response. No impact would result.
+b. Wildfire Pollutants: The City of Buellton is not located within state responsibility areas classified as very high fire hazard severity zones. However, properties across the Santa Ynez River south of the City are located within very high fire hazard severity zones. The proposed project would not directly result in physical development and thus would not expose project occupants to pollutant concentrations from a wildfire or the uncontrolled spread of a wildfire. No impact would result.
+c. Infrastructure: The project would not require the installation or maintenance of infrastructure that could exacerbate fire risk or result in temporary or ongoing impacts to the environment. Likewise, the housing sites identified in the Housing Element are already planned for housing development in the General Plan and/or the AHOZ Ordinance and would not involve infrastructure that could aggravate fire risk. No impact is anticipated.
+d. Exposure to Risks: The proposed project would not directly involve development and thus would not expose people or structures to significant risks, including downslope or downstream flooding or landslides, as a result of runoff, post-fire slope instability, or drainage changes. The sites identified in the Housing Element are located in an urban area
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 35
+and have already been programmed for development by the City’s policy and regulatory documents. No impact is anticipated.
+Findings and Mitigation
+No significant impacts would occur, so no mitigation is required.
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 36
+XII. Mandatory Findings of Significance Issues: Potentially Significant Impact Less Than Significant With Mitigation Incorporated Less Than Significant Impact No Impact
+a) Does the project have the potential to degrade the quality of the environment, substantially reduce the habitat of a fish or wildlife species, cause a fish or wildlife population to drop below self-sustaining levels, threaten to eliminate a plant or animal community, reduce the number or restrict the range of a rare or endangered plant or animal or eliminate important examples of the major periods of California history or prehistory?
+
+b) Does the project have impacts that are individually limited, but cumulatively considerable? ("Cumulatively considerable" means that the incremental effects of a project are considerable when viewed in connection with the effects of past projects, the effects of other current projects, and the effects of probable future projects)?
+
+c) Does the project have environmental effects that will cause substantial adverse effects on human beings, either directly or indirectly?
+
+Impact Analysis
+a. Environmental Quality: As outlined in Section IV, Biological Resources; and Section V, Cultural Resources; the City of Buellton contains a variety of sensitive plant and wildlife species and has a rich history and prehistory. The proposed Housing Element Update is a policy document that would not involve physical development in the City. In addition, the housing sites identified in the Housing Element are already programmed for development and thus would not degrade the environment, or significantly impact fish or wildlife populations, or cultural history or prehistory. Therefore, no impact would result. Future development on the sites identified in the Housing Element would be subject to subsequent environmental review to determine if potentially significant environmental quality impacts would result.
+b. Cumulative Impacts: As outlined in this Initial Study, the proposed project would not have adverse individual effects on any environmental issue addressed in this document. In addition, there are no impacts that would be cumulatively considerable associated with the project. The project involves an update to the General Plan Housing Element and the sites identified in the Housing Element are already planned for development in the General Plan. No impact would result.
+c. Effects on Humans: The project would not adversely affect the environment or have an adverse effect on human beings. All of the environmental thresholds addressed in this report were determined to have “No Impact” or ”Less Than Significant Impact,” and no mitigation measures are required. Thus, the project would not have any direct or indirect impacts on human beings, and no impact would result. Future development on the sites identified in the
+Housing Element Update
+DRAFT Initial Study / Negative Declaration March 2023
+City of Buellton 37
+Housing Element would be subject to subsequent environmental review to determine if potentially effects on human beings would result.

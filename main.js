@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "https://cesium.com/downloads/cesiumjs/releases/1.125/Build/Cesium/Widgets/widgets.css";
     head.appendChild(cesiumCss);
 
-    // Custom styles
+    // Custom styles (includes new Chat UI styles and orientation-level container styling)
     const style = document.createElement("style");
     style.textContent = `
       /* Cesium container fills the viewport */
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
           position: absolute;
           top: 10px;
           left: 10px;
+          right: 320px; /* Reserve 320px on the right so controls never go behind chat panel */
           z-index: 10;
           background: rgba(185, 232, 254, 0.5);
           padding: 10px;
@@ -61,12 +62,23 @@ document.addEventListener("DOMContentLoaded", () => {
       #controlsContainer > div {
           min-width: 120px;
       }
+      /* New container for Orientation and Building Level */
+      #orientationLevelContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+      }
+      /* Use the same styling for dropdown sub-containers as other controls */
+      #orientationDropdownContainer,
+      #buildingLevelContainer {
+          min-width: 120px;
+      }
       /* Analysis panel across bottom */
       #analysisPanel {
           position: absolute;
           bottom: 10px;
           left: 10px;
-          right: 10px;
+          right: 320px;  /* Adjusted so it doesn't go under the chat panel */
           z-index: 10;
           background: rgba(185, 232, 254, 0.5);
           padding: 10px;
@@ -116,6 +128,57 @@ document.addEventListener("DOMContentLoaded", () => {
           padding: 4px;
           width: 120px;
       }
+      /* ---- New Chat UI Styles ---- */
+      /* Right side panel for custom GPT chat */
+      #llmChatContainer {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 300px;
+          height: 100%;
+          background-color: #1b375e;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          box-sizing: border-box;
+          z-index: 20;
+      }
+      /* Instructions text inside chat panel */
+      #llmInstructions {
+          color: #fff;
+          margin-bottom: 10px;
+          font-weight: bold;
+      }
+      /* User input rounded box */
+      #llmInput {
+          background-color: #b9e8fe;
+          border: none;
+          border-radius: 8px;
+          padding: 8px;
+          margin-bottom: 8px;
+          width: 100%;
+          box-sizing: border-box;
+          resize: none;
+      }
+      /* LLM output area */
+      #llmOutput {
+          flex: 1;
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 8px;
+          overflow-y: auto;
+          margin-bottom: 8px;
+          color: #000;
+      }
+      /* Send button styling */
+      #llmSendButton {
+          align-self: flex-end;
+          padding: 6px 12px;
+          background-color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
     `;
     head.appendChild(style);
 
@@ -154,26 +217,29 @@ document.addEventListener("DOMContentLoaded", () => {
                   </select>
               </div>
           </div>
-          <div id="orientationContainer">
-              <strong>Select Orientation:</strong><br />
-              <select id="orientationSelect">
-                  <option value="">--- Select Orientation ---</option>
-                  <option value="NORTH">NORTH</option>
-                  <option value="SOUTH">SOUTH</option>
-                  <option value="EAST">EAST</option>
-                  <option value="WEST">WEST</option>
-                  <option value="BIRDSEYE">BIRDSEYE</option>
-              </select>
-          </div>
-          <div id="buildingLevelContainer">
-              <strong>Select Building Level:</strong><br />
-              <select id="buildingLevelSelect">
-                  <option value="">--- Select a Level ---</option>
-                  <option value="Ground">Ground</option>
-                  <option value="2nd Story">2nd Story</option>
-                  <option value="4th Floor">4th Floor</option>
-                  <option value="Birds_Eye">Birds Eye</option>
-              </select>
+          <!-- New: Orientation and Building Level combined container -->
+          <div id="orientationLevelContainer">
+              <div id="orientationDropdownContainer">
+                  <strong>Select Orientation:</strong><br />
+                  <select id="orientationSelect">
+                      <option value="">--- Select Orientation ---</option>
+                      <option value="NORTH">NORTH</option>
+                      <option value="SOUTH">SOUTH</option>
+                      <option value="EAST">EAST</option>
+                      <option value="WEST">WEST</option>
+                      <option value="BIRDSEYE">BIRDSEYE</option>
+                  </select>
+              </div>
+              <div id="buildingLevelContainer">
+                  <strong>Select Building Level:</strong><br />
+                  <select id="buildingLevelSelect">
+                      <option value="">--- Select a Level ---</option>
+                      <option value="Ground">Ground</option>
+                      <option value="2nd Story">2nd Story</option>
+                      <option value="4th Floor">4th Floor</option>
+                      <option value="Birds_Eye">Birds Eye</option>
+                  </select>
+              </div>
           </div>
           <div id="districtZonesContainer">
               <strong>District Zones:</strong><br />
@@ -191,6 +257,15 @@ document.addEventListener("DOMContentLoaded", () => {
               Disclaimer: HelioViews™ leverages real-time data from NREL, OpenWeatherMap, and OpenAI to generate a personalized solar analysis, thus results remain approximate, rely on user inputs, and require additional data points for a professional assessment.
           </div>
       </div>
+      <!-- NEW: Right side panel for custom GPT chat -->
+      <div id="llmChatContainer">
+          <div id="llmInstructions">
+              How to use custom GPT: Type your question below.
+          </div>
+          <textarea id="llmInput" rows="2" placeholder="Ask a question..."></textarea>
+          <div id="llmOutput"></div>
+          <button id="llmSendButton">Send</button>
+      </div>
     `;
 
     // ----- Load External Cesium Script and Run Main Code -----
@@ -204,7 +279,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ----- Main Application Code -----
     async function main() {
-        // Define season variables BEFORE they are used.
+        // ------------------------------
+        // Section 1: Cesium Viewer Initialization
+        // ------------------------------
         const SEASON_DATES = {
             Winter: "2021-01-14",
             Spring: "2021-04-14",
@@ -215,18 +292,16 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentSeason = "Spring";
         let currentDateStr = SEASON_DATES[currentSeason];
 
-        // Set Cesium Ion token and fetch API config
         Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MGM5NmY1Mi00OTcwLTQ2NDctYWYwOC0xNGM3YTFlZmQzZjgiLCJpZCI6MjMwMDE2LCJpYXQiOjE3MzY2MzU1ODZ9.zbfWIKXddKs4vm5an-xtwsli8fxIIEH0m0TA65S9b_k";
         fetch("/api/config")
             .then(response => response.json())
             .then(config => {
                 window.NREL_API_KEY = config.NREL_API_KEY;
                 window.OPENWEATHER_API_KEY = config.OPENWEATHER_API_KEY;
-                updateAnalysisPanel();
+                // Chat UI initialization replaces the previous analysis panel update.
             })
             .catch(error => console.error("Error fetching config:", error));
 
-        // 1) Cesium Initialization
         const viewer = new Cesium.Viewer("cesiumContainer", {
             terrain: Cesium.Terrain.fromWorldTerrain(),
             shadows: true,
@@ -236,13 +311,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         viewer.scene.globe.depthTestAgainstTerrain = true;
         viewer.scene.atmosphere.dynamicLighting = Cesium.DynamicAtmosphereLightingType.SUNLIGHT;
+        viewer.scene.atmosphere.hueShift = 0.4;
+        viewer.scene.atmosphere.brightnessShift = 0.25;
+        viewer.scene.atmosphere.saturationShift = -0.1;
 
-        // Adjust the color of the atmosphere effects.
-        viewer.scene.atmosphere.hueShift = 0.4;          // Cycle 40% around the color wheel
-        viewer.scene.atmosphere.brightnessShift = 0.25;    // Increase the brightness
-        viewer.scene.atmosphere.saturationShift = -0.1;    // Desaturate the colors
-
-        // Replace OSM Buildings with Google Photorealistic 3D Tiles
         try {
             const googleTileset = await Cesium.createGooglePhotorealistic3DTileset();
             viewer.scene.primitives.add(googleTileset);
@@ -250,7 +322,9 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error loading Photorealistic 3D Tiles tileset.", error);
         }
 
-        // Helper: Compute Centroid from an array of [lon, lat, ...]
+        // ------------------------------
+        // Section 2: Helper Functions
+        // ------------------------------
         function computeCentroid(degreesArray) {
             let sumLon = 0, sumLat = 0;
             const numPoints = degreesArray.length / 2;
@@ -261,7 +335,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return Cesium.Cartesian3.fromDegrees(sumLon / numPoints, sumLat / numPoints);
         }
 
-        // 2) Load the Pea Soup Tileset (PeaSoup ALL)
+        // ------------------------------
+        // Section 3: Load Building Tileset and Create Building Entities
+        // ------------------------------
         const PEA_SOUP_ASSET_ID = 3114933;
         let buildingTileset, buildingBoundingSphere;
         (async () => {
@@ -273,11 +349,10 @@ document.addEventListener("DOMContentLoaded", () => {
             computeCityWideBoundingSphereAndFly();
         })();
 
-        // 3) District Zones Setup
+        // ------------------------------
+        // Section 4: District Zones Setup
+        // ------------------------------
         const districtZones = [];
-
-        // --- District 1, 2, 3 would be defined similarly; here is District 4 as an example:
-        // District 1
         const district1Coords = [
             -120.20915, 34.61958,
             -120.20272, 34.61702,
@@ -298,7 +373,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 material: Cesium.Color.LIGHTPINK.withAlpha(0.5),
                 clampToGround: true,
             },
-            // Place label at computed centroid
             position: computeCentroid(district1Coords),
             label: {
                 text: "District 1",
@@ -420,22 +494,22 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         districtZones.push(districtZone4);
 
+        // After you've defined districtZones = [] and pushed districtZone1, 2, 3, 4...
         function setDistrictZonesVisible(visible) {
             districtZones.forEach(zone => {
                 zone.show = visible;
             });
         }
-
-        // Since we statically included the districtZonesContainer in our HTML,
-        // attach an event listener to its checkbox.
-        const districtsCheckbox = document.getElementById("toggleDistrictZones");
-        if (districtsCheckbox) {
-            districtsCheckbox.addEventListener("change", function () {
+        // Attach the event listener to the checkbox
+        const districtCheckbox = document.getElementById("toggleDistrictZones");
+        if (districtCheckbox) {
+            districtCheckbox.addEventListener("change", function () {
                 setDistrictZonesVisible(this.checked);
             });
         }
-
-        // 4) Season & Time Setup
+        // ------------------------------
+        // Section 5: Season & Time Setup
+        // ------------------------------
         function setClockBoundsForDate(dateStr) {
             const start = new Date(`${dateStr}T08:00:00-08:00`);
             const stop = new Date(`${dateStr}T20:00:00-08:00`);
@@ -453,7 +527,9 @@ document.addEventListener("DOMContentLoaded", () => {
             viewer.clock.currentTime = Cesium.JulianDate.fromDate(newDate);
         }
 
-        // 5) Building Level & Orientation Setup
+        // ------------------------------
+        // Section 6: Building Level, Orientation, and Flight Functions
+        // ------------------------------
         const LEVEL_ALTITUDES_FEET = {
             "Ground": 0,
             "2nd Story": 27.0833,
@@ -471,14 +547,15 @@ document.addEventListener("DOMContentLoaded", () => {
             "BIRDSEYE": Cesium.Math.toRadians(0),
         };
         async function flyToOrientationAndLevel() {
-            const orientation = orientationSelect.value;
+            const orientation = document.getElementById("orientationSelect").value;
             const heading = ORIENTATION_HEADING[orientation] || 0;
-            let pitch = (orientation === "BIRDSEYE") ? Cesium.Math.toRadians(-90) : 0;
-            const buildingLevel = buildingLevelSelect.value;
+            let pitch = (orientation === "BIRDSEYE") ? Cesium.Math.toRadians(-90) : Cesium.Math.toRadians(-15);
+            const buildingLevel = document.getElementById("buildingLevelSelect").value;
             const levelFeet = LEVEL_ALTITUDES_FEET[buildingLevel] || 0;
             const levelMeters = feetToMeters(levelFeet);
             let sphere, range;
-            const selectedName = buildingSelect.value;
+            const selectedName = document.getElementById("buildingSelect").value;
+            const buildings = window.buildings || [];
             const b = buildings.find(x => x.name === selectedName);
             if (b && !b.isTileset) {
                 let pos = Cesium.Cartesian3.fromDegrees(b.coordinates.lon, b.coordinates.lat, 0);
@@ -506,7 +583,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        // 6) Shading & Multipliers Setup
+        // ------------------------------
+        // Section 7: Shading and Multiplier Setup
+        // ------------------------------
         const LEVEL_MULTIPLIERS = {
             "Ground": 1.0,
             "2nd Story": 1.05,
@@ -532,55 +611,9 @@ document.addEventListener("DOMContentLoaded", () => {
             "HEAVY": 0.50,
         };
 
-        // 7) NREL + OpenWeatherMap Data
-        async function fetchAnalysisData(season, hour, orientation) {
-            const lat = 34.61346;
-            const lon = -120.1918;
-            const nrelUrl = `https://developer.nrel.gov/api/pvwatts/v6.json?api_key=${window.NREL_API_KEY}&lat=${lat}&lon=${lon}&system_capacity=4&azimuth=180&tilt=20&array_type=1&module_type=1&losses=10`;
-            let nrelData;
-            try {
-                const nrelResponse = await fetch(nrelUrl);
-                if (!nrelResponse.ok) {
-                    console.error("NREL API request failed", nrelResponse.statusText);
-                    return null;
-                }
-                nrelData = await nrelResponse.json();
-            } catch (err) {
-                console.error("Error fetching NREL data:", err);
-                return null;
-            }
-            let monthIndex;
-            switch (season) {
-                case "Winter": monthIndex = 0; break;
-                case "Spring": monthIndex = 3; break;
-                case "Summer": monthIndex = 6; break;
-                case "Fall": monthIndex = 9; break;
-                default: monthIndex = 0;
-            }
-            const monthlyKwh = nrelData.outputs?.ac_monthly ? nrelData.outputs.ac_monthly[monthIndex] : 120;
-            const solrad = nrelData.outputs?.solrad || 5.5;
-            const openWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${window.OPENWEATHER_API_KEY}&units=metric`;
-            let weatherData;
-            try {
-                const weatherResponse = await fetch(openWeatherUrl);
-                if (!weatherResponse.ok) {
-                    console.error("OpenWeatherMap API request failed", weatherResponse.statusText);
-                    return null;
-                }
-                weatherData = await weatherResponse.json();
-            } catch (err) {
-                console.error("Error fetching OpenWeatherMap data:", err);
-                return null;
-            }
-            const temperature = weatherData.main?.temp ?? 20;
-            let climate = "MILD";
-            if (temperature > 25) climate = "HOT";
-            else if (temperature < 15) climate = "COLD";
-            const energyCost = 0.1990;
-            return { monthlyKwh, solrad, climate, energyCost };
-        }
-
-        // 8) LLM + Analysis Panel
+        // ------------------------------
+        // Section 8: (OLD) LLM + Analysis Panel [REMOVE THIS SECTION]
+        /* OLD CODE – remove this section
         async function generateLLMText(prompt) {
             try {
                 const response = await fetch("/api/generateLLMText", {
@@ -600,50 +633,35 @@ document.addEventListener("DOMContentLoaded", () => {
                 return "Error generating text.";
             }
         }
-
         async function updateAnalysisPanel() {
             const season = currentSeason;
-            const hour = parseInt(timeSlider.value, 10);
-            const orientation = orientationSelect.value;
-            const buildingLevel = buildingLevelSelect.value;
-            const shading = LEVEL_SHADE_MAPPING[buildingLevel];
-            const levelElevation = LEVEL_ELEVATIONS[buildingLevel] || "";
+            const hour = parseInt(document.getElementById("timeSlider").value, 10);
+            const orientation = document.getElementById("orientationSelect").value;
+            const buildingLevel = document.getElementById("buildingLevelSelect").value;
+            const shading = shadingSelect.value;
             setClockBoundsForDate(currentDateStr);
             setClockToPST(currentDateStr, hour);
-            hourDisplay.textContent = hour;
+            document.getElementById("hourDisplay").textContent = hour;
             const data = await fetchAnalysisData(season, hour, orientation);
-            if (!data) return;
-            let { solrad, climate, energyCost, monthlyKwh } = data;
-            solrad *= SHADING_ADJUSTMENTS[shading] * LEVEL_MULTIPLIERS[buildingLevel];
+            let { solrad, climate, energyCost } = data;
+            solrad = solrad * SHADING_ADJUSTMENTS[shading] * LEVEL_MULTIPLIERS[buildingLevel];
             const helioViewsScore = solrad * 2;
-            let address;
-            if (buildingStatusSelect.value === "All" || buildingSelect.value === "") {
-                address = "Buellton, CA (lat: 34.61346, lon: -120.1918)";
-            } else {
-                const selectedBuilding = buildings.find(b => b.name === buildingSelect.value);
-                if (selectedBuilding) {
-                    address = `${selectedBuilding.name} (lat: ${selectedBuilding.coordinates.lat}, lon: ${selectedBuilding.coordinates.lon})`;
-                } else {
-                    address = "Buellton, CA (lat: 34.61346, lon: -120.1918)";
-                }
-            }
             const summaryPrompt = `
 PROPERTY DETAILS:
-• Address: ${address}
+• Address: Buellton, CA (lat: 34.61346, lon: -120.1918)
 • Orientation: ${orientation}
 • Season: ${season}
-• Time: ${hour}:00 PST
-• Building Level: ${buildingLevel} (Elevation: ${levelElevation})
+• Hour: ${hour}:00 PST
+• Building Level: ${buildingLevel} (Elevation: ${LEVEL_ELEVATIONS[buildingLevel] || ""})
 • Shade: ${shading}
 • Climate: ${climate}
 • Energy Cost: ${energyCost} USD/kWh
-• Solar Potential: ${solrad.toFixed(2)} kWh/m²/day
+• Solar Potential: ${data.solrad.toFixed(2)} kWh/m²/day
 • Est. HelioViews Score: ${helioViewsScore.toFixed(1)}
 
 TASK:
-1. Provide a "City Planner’s Highlights" section that outlines the key strengths of this property’s solar and permaculture potential.
-2. Provide a "City Planner’s Cautions" section that identifies potential concerns or areas for further study.
-
+1. Provide a "City Planner’s Highlights" section outlining key strengths.
+2. Provide a "City Planner’s Cautions" section identifying concerns.
 Final Output Format:
 <h3>Highlights</h3>
 <ul>
@@ -654,60 +672,122 @@ Final Output Format:
   <li>Bullet points…</li>
 </ul>
             `;
-            const llmText = await generateLLMText(summaryPrompt) || "";
-            const highlightsRegex = /<h3>Highlights<\/h3>[\s\S]*?(?=<h3>Cautions<\/h3>)/;
-            const cautionsRegex = /<h3>Cautions<\/h3>[\s\S]*/;
-            let highlightsHTML = "";
-            let cautionsHTML = "";
-            const highlightsMatch = llmText.match(highlightsRegex);
-            const cautionsMatch = llmText.match(cautionsRegex);
-            if (highlightsMatch) highlightsHTML = highlightsMatch[0].trim();
-            if (cautionsMatch) cautionsHTML = cautionsMatch[0].trim();
-            analysisResults.innerHTML = `
+            const llmText = await generateLLMText(summaryPrompt);
+            document.getElementById("analysisResults").innerHTML = `
+                <div><strong>Orientation:</strong> ${orientation}</div>
+                <div><strong>Season:</strong> ${season}</div>
+                <div><strong>Hour:</strong> ${hour}:00 PST</div>
+                <div><strong>Building Level:</strong> ${buildingLevel}</div>
+                <div><strong>Shading:</strong> ${shading}</div>
+                <hr/>
+                <div>Est. HelioViews Score: <b>${helioViewsScore.toFixed(1)}</b></div>
+                <div>${llmText}</div>
+              `;
+        }
+        updateAnalysisPanel();
+        */
+        // ------------------------------
+        // End of Section 8 (OLD LLM code removed)
+
+        // ------------------------------
+        // Section 8 (NEW): Custom GPT Chat UI Initialization
+        // ------------------------------
+        // Instead of using updateAnalysisPanel(), we now initialize the custom GPT chat interface.
+        setupChatInterface();
+        // ------------------------------
+        // End of Section 8 (NEW Chat UI)
+        function updateAnalysisPanel() {
+            // 1) Gather the user’s current selections
+            const season = currentSeason;                  // from your radio buttons
+            const hour = parseInt(document.getElementById("timeSlider").value, 10);
+            const orientation = document.getElementById("orientationSelect").value;
+            const buildingLevel = document.getElementById("buildingLevelSelect").value;
+
+            // 2) For demonstration, define a simple or placeholder logic
+            //    If you want real data, reintroduce fetch calls to NREL/OpenWeather, etc.
+            //    Below is minimal logic just to show the old fields:
+
+            // Example placeholders:
+            let baseSolarPotential = 5.5;   // kWh/m²/day, or fetch from NREL
+            let climate = "MILD";           // or "HOT"/"COLD" from OpenWeather
+            let shading = "MEDIUM";         // or you can map from buildingLevel
+            let levelElevation = "27 ft, 1 in"; // or from your LEVEL_ELEVATIONS
+            let helioViewsScore = 7.2;      // a placeholder score
+
+            // 3) Build your old HTML snippet
+            const resultsHtml = `
       <div id="analysisResultsTop">
         <h3>Est. HelioViews Score: <b>${helioViewsScore.toFixed(1)}</b></h3>
-        <div><strong>Base Solar Potential:</strong> ${solrad.toFixed(2)} kWh/m²/day</div>
+        <div><strong>Base Solar Potential:</strong> ${baseSolarPotential.toFixed(2)} kWh/m²/day</div>
         <div><strong>Climate Adjustment:</strong> ${climate}</div>
         <div><strong>Shade:</strong> ${shading}</div>
         <div><strong>Elevation Height:</strong> ${levelElevation}</div>
       </div>
-      <div id="analysisColumns">
-        <div class="analysis-col highlights-col">
-          ${highlightsHTML}
-        </div>
-        <div class="analysis-col cautions-col">
-          ${cautionsHTML}
-        </div>
-      </div>
-            `;
+    `;
+
+            // 4) Insert into bottom panel
+            document.getElementById("analysisResults").innerHTML = resultsHtml;
         }
 
-        // 9) Event Listeners for Existing Controls
+        // ------------------------------
+        // Section 9: Event Listeners for Existing Controls
+        // ------------------------------
+
+        // 1) Listen for changes in Season (radio buttons)
         const seasonRadios = document.querySelectorAll('input[name="season"]');
         seasonRadios.forEach(radio => {
             radio.addEventListener("change", (e) => {
                 if (e.target.checked) {
+                    // Update currentSeason and currentDateStr based on selection
                     currentSeason = e.target.value;
                     currentDateStr = SEASON_DATES[currentSeason];
+
+                    // Adjust the Cesium clock for the new season
+                    setClockBoundsForDate(currentDateStr);
+                    const currentHour = parseInt(document.getElementById("timeSlider").value, 10);
+                    setClockToPST(currentDateStr, currentHour);
+
+                    // Update the bottom analysis panel with new values
                     updateAnalysisPanel();
                 }
             });
         });
-        timeSlider.addEventListener("input", updateAnalysisPanel);
-        orientationSelect.addEventListener("change", async () => {
-            if (buildingSelect.value !== "") {
-                await flyToOrientationAndLevel();
-            }
-            updateAnalysisPanel();
-        });
-        buildingLevelSelect.addEventListener("change", async () => {
-            if (buildingSelect.value !== "") {
-                await flyToOrientationAndLevel();
-            }
+
+        // 2) Listen for changes on the Sun Hour slider
+        document.getElementById("timeSlider").addEventListener("input", () => {
+            const currentHour = parseInt(document.getElementById("timeSlider").value, 10);
+
+            // Update the Cesium clock to reflect the new time
+            setClockToPST(currentDateStr, currentHour);
+            document.getElementById("hourDisplay").textContent = currentHour;
+
+            // Update the analysis panel with the new sun hour
             updateAnalysisPanel();
         });
 
-        // 10) Building Array & Dropdown 
+        // 3) Listen for changes in Orientation dropdown
+        document.getElementById("orientationSelect").addEventListener("change", async () => {
+            // If a building is selected, fly to that building using the new orientation/level
+            if (document.getElementById("buildingSelect").value !== "") {
+                await flyToOrientationAndLevel();
+            }
+            // Update the analysis panel to reflect the new orientation
+            updateAnalysisPanel();
+        });
+
+        // 4) Listen for changes in Building Level dropdown
+        document.getElementById("buildingLevelSelect").addEventListener("change", async () => {
+            // If a building is selected, fly to that building using the new level (and orientation)
+            if (document.getElementById("buildingSelect").value !== "") {
+                await flyToOrientationAndLevel();
+            }
+            // Update the analysis panel to reflect the new building level
+            updateAnalysisPanel();
+        });
+
+        // ------------------------------
+        // Section 10: Building Array & Dropdown Setup
+        // ------------------------------
         const buildings = [
             {
                 name: "PeaSoup",
@@ -721,7 +801,7 @@ Final Output Format:
                 status: "Applications in Process",
                 color: "#FFD700",
                 dimensions: new Cesium.Cartesian3(30, 30, 12),
-                coordinates: { lon: -120.19338, lat: 34.613114 }, 
+                coordinates: { lon: -120.19338, lat: 34.613114 },
             },
             {
                 name: "Arco AM-PM Gas Station",
@@ -807,7 +887,9 @@ Final Output Format:
                 dimensions: new Cesium.Cartesian3(26, 26, 12),
                 coordinates: { lon: -120.18949, lat: 34.60897 },
             },
+            // ... (include any additional building objects here)
         ];
+        window.buildings = buildings;
 
         const buildingStatusSelect = document.getElementById("buildingStatusSelect");
         const buildingSelect = document.getElementById("buildingSelect");
@@ -832,7 +914,7 @@ Final Output Format:
             const selectedName = buildingSelect.value;
             const b = buildings.find(x => x.name === selectedName);
             if (!b) return;
-            let orientationValue = orientationSelect.value;
+            let orientationValue = document.getElementById("orientationSelect").value;
             let heading = 0;
             if (orientationValue && ORIENTATION_HEADING.hasOwnProperty(orientationValue)) {
                 heading = ORIENTATION_HEADING[orientationValue];
@@ -922,7 +1004,56 @@ Final Output Format:
         }
 
         setClockBoundsForDate(currentDateStr);
-        setClockToPST(currentDateStr, parseInt(timeSlider.value, 10));
-        updateAnalysisPanel();
+        setClockToPST(currentDateStr, parseInt(document.getElementById("timeSlider").value, 10));
+        // ------------------------------
+        // End of Section 10
+        // ------------------------------
+    } // End of main()
+
+    // ------------------------------
+    // Section 11: New Chat UI Setup Function (Custom GPT Chat)
+    // ------------------------------
+    function setupChatInterface() {
+        const input = document.getElementById("llmInput");
+        const output = document.getElementById("llmOutput");
+        const sendButton = document.getElementById("llmSendButton");
+
+        sendButton.addEventListener("click", async () => {
+            const query = input.value.trim();
+            if (!query) return; // Do nothing if input is empty
+
+            // Append user's message
+            const userMsgDiv = document.createElement("div");
+            userMsgDiv.style.marginBottom = "6px";
+            userMsgDiv.innerHTML = `<strong>User:</strong> ${query}`;
+            output.appendChild(userMsgDiv);
+            input.value = "";
+
+            try {
+                const response = await fetch("/api/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ query })
+                });
+                const data = await response.json();
+                const assistantMsgDiv = document.createElement("div");
+                assistantMsgDiv.style.marginBottom = "6px";
+                if (data.answer) {
+                    assistantMsgDiv.innerHTML = `<strong>Assistant:</strong> ${data.answer}`;
+                } else {
+                    assistantMsgDiv.innerHTML = `<strong>Assistant:</strong> No answer received.`;
+                }
+                output.appendChild(assistantMsgDiv);
+                output.scrollTop = output.scrollHeight;
+            } catch (err) {
+                console.error("Error in chat query:", err);
+                const errorMsgDiv = document.createElement("div");
+                errorMsgDiv.style.color = "red";
+                errorMsgDiv.innerHTML = `<strong>Error:</strong> Could not process your query.`;
+                output.appendChild(errorMsgDiv);
+            }
+        });
     }
+    // ------------------------------
+    // End of Section 11
 });
