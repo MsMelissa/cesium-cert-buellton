@@ -291,39 +291,37 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Failed to load GeoJSON layer:", error);
         }
 
-        // 2.6) Clip Terrain Using ClippingPolygonCollection
+        /// 2.6) Clip Google Photorealistic 3D Tiles in PeaSoup area
         try {
-            const peaSoupDegrees = [
+            const peaSoupClipPositions = Cesium.Cartesian3.fromDegreesArray([
                 -120.19326044442388, 34.613528144137206,
                 -120.19257285814692, 34.614695800360884,
                 -120.19097062902154, 34.61403549735191,
                 -120.19106740536853, 34.613849626549865,
                 -120.19160932332674, 34.61403553935791,
                 -120.19204635130576, 34.61382845972564,
-                -120.19242386607534, 34.613165648124216,
-            ];
-
-            const peaSoupPositions = Cesium.Cartesian3.fromDegreesArray(peaSoupDegrees);
+                -120.19242386607534, 34.613165648124216
+            ]);
 
             const clippingPolygon = new Cesium.ClippingPolygonCollection({
                 polygons: [
                     new Cesium.ClippingPolygon({
-                        positions: peaSoupPositions,
+                        positions: peaSoupClipPositions,
                     }),
                 ],
-                unionClippingRegions: true,
                 edgeWidth: 2.0,
-                edgeColor: Cesium.Color.YELLOW
+                edgeColor: Cesium.Color.YELLOW,
+                unionClippingRegions: true
             });
 
-            // Apply to terrain
-            viewer.scene.globe.clippingPolygons = clippingPolygon;
-
-            console.log("ClippingPolygonCollection applied to terrain.");
-        } catch (error) {
-            console.error("Error applying clipping polygon:", error);
+            // Wait for Google Tileset to be ready before applying clipping
+            googleTileset.readyPromise.then(() => {
+                googleTileset.clippingPolygons = clippingPolygon;
+                console.log("Clipping polygon applied to Google Photorealistic 3D Tiles.");
+            });
+        } catch (err) {
+            console.error("Failed to apply clipping polygon to Google tileset:", err);
         }
-
 
         // 3) District Zones Setup
         const districtZones = [];
