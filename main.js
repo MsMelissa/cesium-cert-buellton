@@ -291,9 +291,9 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Failed to load GeoJSON layer:", error);
         }
 
-        // 2.6) Flat Foundation Pad for PeaSoup Area
+        // 2.6) Clip Terrain Using ClippingPolygonCollection
         try {
-            const peaSoupPad = Cesium.Cartesian3.fromDegreesArray([
+            const peaSoupDegrees = [
                 -120.19326044442388, 34.613528144137206,
                 -120.19257285814692, 34.614695800360884,
                 -120.19097062902154, 34.61403549735191,
@@ -301,23 +301,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 -120.19160932332674, 34.61403553935791,
                 -120.19204635130576, 34.61382845972564,
                 -120.19242386607534, 34.613165648124216,
-            ]);
+            ];
 
-            viewer.entities.add({
-                name: "PeaSoup Foundation",
-                polygon: {
-                    hierarchy: new Cesium.PolygonHierarchy(peaSoupPad),
-                    material: Cesium.Color.YELLOW.withAlpha(0.4),
-                    height: height: 72.8753872203, // matches building base
-                    outline: false,
-                    perPositionHeight: false,
-                },
+            const peaSoupPositions = Cesium.Cartesian3.fromDegreesArray(peaSoupDegrees);
+
+            const clippingPolygon = new Cesium.ClippingPolygonCollection({
+                polygons: [
+                    new Cesium.ClippingPolygon({
+                        positions: peaSoupPositions,
+                    }),
+                ],
+                unionClippingRegions: true,
+                edgeWidth: 2.0,
+                edgeColor: Cesium.Color.YELLOW
             });
 
-            console.log("Flat foundation polygon placed under PeaSoup.");
+            // Apply to terrain
+            viewer.scene.globe.clippingPolygons = clippingPolygon;
+
+            console.log("ClippingPolygonCollection applied to terrain.");
         } catch (error) {
-            console.error("Error adding foundation pad:", error);
+            console.error("Error applying clipping polygon:", error);
         }
+
 
         // 3) District Zones Setup
         const districtZones = [];
