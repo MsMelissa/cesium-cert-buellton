@@ -291,48 +291,33 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Failed to load GeoJSON layer:", error);
         }
 
-        // 2.6) Clip Terrain Inside PeaSoup Build Area Polygon
+        // 2.6) Flat Foundation Pad for PeaSoup Area
         try {
-            const peaSoupCoordinates = [
-                [-120.19326044442388, 34.613528144137206],
-                [-120.19257285814692, 34.614695800360884],
-                [-120.19097062902154, 34.61403549735191],
-                [-120.19106740536853, 34.613849626549865],
-                [-120.19160932332674, 34.61403553935791],
-                [-120.19204635130576, 34.61382845972564],
-                [-120.19242386607534, 34.613165648124216]
-            ];
+            const peaSoupPad = Cesium.Cartesian3.fromDegreesArray([
+                -120.19326044442388, 34.613528144137206,
+                -120.19257285814692, 34.614695800360884,
+                -120.19097062902154, 34.61403549735191,
+                -120.19106740536853, 34.613849626549865,
+                -120.19160932332674, 34.61403553935791,
+                -120.19204635130576, 34.61382845972564,
+                -120.19242386607534, 34.613165648124216,
+            ]);
 
-            // Convert to Cesium.Cartesian3 and build normal-facing clipping planes
-            const clipPlanes = peaSoupCoordinates.map((coord, i, arr) => {
-                const next = arr[(i + 1) % arr.length];
-                const p1 = Cesium.Cartesian3.fromDegrees(...coord, 0);
-                const p2 = Cesium.Cartesian3.fromDegrees(...next, 0);
-
-                const up = Cesium.Cartesian3.normalize(p1, new Cesium.Cartesian3());
-                const right = Cesium.Cartesian3.subtract(p2, p1, new Cesium.Cartesian3());
-                Cesium.Cartesian3.normalize(right, right);
-                const normal = Cesium.Cartesian3.cross(right, up, new Cesium.Cartesian3());
-                Cesium.Cartesian3.normalize(normal, normal);
-
-                const distance = -Cesium.Cartesian3.dot(normal, p1);
-                return new Cesium.ClippingPlane(normal, distance);
+            viewer.entities.add({
+                name: "PeaSoup Foundation",
+                polygon: {
+                    hierarchy: new Cesium.PolygonHierarchy(peaSoupPad),
+                    material: Cesium.Color.YELLOW.withAlpha(0.4),
+                    height: height: 72.8753872203, // matches building base
+                    outline: false,
+                    perPositionHeight: false,
+                },
             });
 
-            // Apply clipping to the terrain (removes area inside polygon)
-            viewer.scene.globe.clippingPlanes = new Cesium.ClippingPlaneCollection({
-                planes: clipPlanes,
-                edgeColor: Cesium.Color.YELLOW,
-                edgeWidth: 2.0,
-                unionClippingRegions: false // This removes the inside
-            });
-
-            console.log("Terrain inside PeaSoup polygon clipped.");
-        } catch (e) {
-            console.error("Error applying clipping plane:", e);
+            console.log("Flat foundation polygon placed under PeaSoup.");
+        } catch (error) {
+            console.error("Error adding foundation pad:", error);
         }
-
-
 
         // 3) District Zones Setup
         const districtZones = [];
