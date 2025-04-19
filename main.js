@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // 2) Load the Pea Soup Tileset (PeaSoup ALL)
-        const PEA_SOUP_ASSET_ID = 3114933;
+        const PEA_SOUP_ASSET_ID = 3027894;
         let buildingTileset, buildingBoundingSphere;
         (async () => {
             buildingTileset = await Cesium.Cesium3DTileset.fromIonAssetId(PEA_SOUP_ASSET_ID);
@@ -273,6 +273,66 @@ document.addEventListener("DOMContentLoaded", () => {
             createBuildingEntities();
             computeCityWideBoundingSphereAndFly();
         })();
+
+        // 2.5) Load GeoJSON Layer (PeaSoup Build Area Visual)
+        let geojsonEntities;
+        try {
+            const geojsonResource = await Cesium.IonResource.fromAssetId(3027822);
+            const geojsonDataSource = await Cesium.GeoJsonDataSource.load(geojsonResource, {
+                stroke: Cesium.Color.YELLOW,
+                fill: Cesium.Color.YELLOW.withAlpha(0.5),
+                strokeWidth: 3,
+                clampToGround: true
+            });
+            geojsonEntities = await viewer.dataSources.add(geojsonDataSource);
+            viewer.flyTo(geojsonEntities);
+            console.log("GeoJSON layer loaded successfully.");
+        } catch (error) {
+            console.error("Failed to load GeoJSON layer:", error);
+        }
+
+        // 2.6) Clip Terrain Inside PeaSoup Build Area Polygon
+        try {
+            const peaSoupCoordinates = [
+                [-120.19326044442388, 34.613528144137206],
+                [-120.19257285814692, 34.614695800360884],
+                [-120.19097062902154, 34.61403549735191],
+                [-120.19106740536853, 34.613849626549865],
+                [-120.19160932332674, 34.61403553935791],
+                [-120.19204635130576, 34.61382845972564],
+                [-120.19242386607534, 34.613165648124216]
+            ];
+
+            // Convert to Cesium.Cartesian3 and build normal-facing clipping planes
+            const clipPlanes = peaSoupCoordinates.map((coord, i, arr) => {
+                const next = arr[(i + 1) % arr.length];
+                const p1 = Cesium.Cartesian3.fromDegrees(...coord, 0);
+                const p2 = Cesium.Cartesian3.fromDegrees(...next, 0);
+
+                const up = Cesium.Cartesian3.normalize(p1, new Cesium.Cartesian3());
+                const right = Cesium.Cartesian3.subtract(p2, p1, new Cesium.Cartesian3());
+                Cesium.Cartesian3.normalize(right, right);
+                const normal = Cesium.Cartesian3.cross(right, up, new Cesium.Cartesian3());
+                Cesium.Cartesian3.normalize(normal, normal);
+
+                const distance = -Cesium.Cartesian3.dot(normal, p1);
+                return new Cesium.ClippingPlane(normal, distance);
+            });
+
+            // Apply clipping to the terrain (removes area inside polygon)
+            viewer.scene.globe.clippingPlanes = new Cesium.ClippingPlaneCollection({
+                planes: clipPlanes,
+                edgeColor: Cesium.Color.YELLOW,
+                edgeWidth: 2.0,
+                unionClippingRegions: false // This removes the inside
+            });
+
+            console.log("Terrain inside PeaSoup polygon clipped.");
+        } catch (e) {
+            console.error("Error applying clipping plane:", e);
+        }
+
+
 
         // 3) District Zones Setup
         const districtZones = [];
