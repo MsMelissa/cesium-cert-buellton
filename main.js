@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const geojsonResource = await Cesium.IonResource.fromAssetId(3027822);
             const geojsonDataSource = await Cesium.GeoJsonDataSource.load(geojsonResource, {
                 stroke: Cesium.Color.YELLOW,
-                fill: Cesium.Color.YELLOW.withAlpha(0.5),
+                fill: Cesium.Color.YELLOW.withAlpha(0.1),
                 strokeWidth: 3,
                 clampToGround: true
             });
